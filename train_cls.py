@@ -26,14 +26,14 @@ def parse_args():
     parser = argparse.ArgumentParser('PointNet')
     parser.add_argument('--batch_size', type=int, default=24, help='batch size in training [default: 24]')
     parser.add_argument('--model', default='pointnet_cls', help='model name [default: pointnet_cls]')
-    parser.add_argument('--epoch',  default=200, type=int, help='number of epoch in training [default: 200]')
+    parser.add_argument('--epoch',  default=250, type=int, help='number of epoch in training [default: 200]')
     parser.add_argument('--learning_rate', default=0.001, type=float, help='learning rate in training [default: 0.001]')
     parser.add_argument('--gpu', type=str, default='0', help='specify gpu device [default: 0]')
     parser.add_argument('--num_point', type=int, default=1024, help='Point Number [default: 1024]')
     parser.add_argument('--optimizer', type=str, default='Adam', help='optimizer for training [default: Adam]')
     parser.add_argument('--log_dir', type=str, default=None, help='experiment root')
     parser.add_argument('--decay_rate', type=float, default=1e-4, help='decay rate [default: 1e-4]')
-    parser.add_argument('--normal', action='store_true', default=False, help='Whether to use normal information [default: False]')
+    parser.add_argument('--normal', action='store_true', default=True, help='Whether to use normal information [default: True]')
     return parser.parse_args()
 
 def test(model, loader, num_class=40):
@@ -148,7 +148,8 @@ def main(args):
     for epoch in range(start_epoch,args.epoch):
         log_string('Epoch %d (%d/%s):' % (global_epoch + 1, epoch + 1, args.epoch))
 
-        scheduler.step()
+        scheduler.step(epoch)
+        total_loss= 0
         for batch_id, data in tqdm(enumerate(trainDataLoader, 0), total=len(trainDataLoader), smoothing=0.9):
             points, target = data
             points = points.data.numpy()
@@ -170,10 +171,11 @@ def main(args):
             mean_correct.append(correct.item() / float(points.size()[0]))
             loss.backward()
             optimizer.step()
+            total_loss+=float(loss)
             global_step += 1
 
         train_instance_acc = np.mean(mean_correct)
-        log_string('Train Instance Accuracy: %f' % train_instance_acc)
+        log_string('Train Instance Accuracy: %f ,mean_loss: %f ' % (train_instance_acc,total_loss/batch_id))
 
 
         with torch.no_grad():
@@ -201,6 +203,19 @@ def main(args):
                 }
                 torch.save(state, savepath)
             global_epoch += 1
+
+            #save every epoch for resume training
+            logger.info('Save model... ,epoch:%d'% epoch)
+            savepath = str(checkpoints_dir) + '/model.pth'
+            log_string('Saving at %s'% savepath)
+            state = {
+                'epoch': epoch,
+                'instance_acc': instance_acc,
+                'class_acc': class_acc,
+                'model_state_dict': classifier.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+            }
+            torch.save(state, savepath)
 
     logger.info('End of training...')
 
