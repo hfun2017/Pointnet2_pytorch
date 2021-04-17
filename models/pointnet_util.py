@@ -3,6 +3,12 @@ import torch.nn as nn
 import torch.nn.functional as F
 from time import time
 import numpy as np
+from torch.autograd import Function
+import sys
+import ctypes
+
+lib=ctypes.cdll.LoadLibrary("/root/Pointnet_Pointnet2_pytorch/libmorton/encode.so")
+lib.encode.restype=ctypes.c_uint64
 
 def timeit(tag, t):
     print("{}: {}s".format(tag, time() - t))
@@ -156,6 +162,30 @@ def sample_and_group_all(xyz, points):
         new_points = grouped_xyz
     return new_xyz, new_points
 
+def z_order_encode(inputs):
+    shape=list(inputs.shape)
+    shape[-1]=1
+    code=np.ndarray(shape,dtype=np.uint64)
+    for i in range(shape[0]):
+        for j in range(shape[1]):
+            x,y,z=inputs[i,j].tolist()
+            code[i,j]=lib.encode(x,y,z)
+    return code.astype(np.float64)
+
+class Z_order_sorting(Function):
+    @staticmethod
+    def forward(ctx,xyz,normal):
+        data=((xyz+2)*4096).cpu().numpy()
+        data = data.astype(dtype=np.uint32)
+        assert data.shape[-1] == 3
+        z_order_code=torch.from_numpy(z_order_encode(data)).cuda()
+        _,idx=torch.sort(z_order_code,dim=1)
+        batch_idx=torch.arange(xyz.shape[0]).reshape(xyz.shape[0],1,1)
+        return xyz[batch_idx,idx].squeeze(2),normal[batch_idx,idx].squeeze(2)
+
+    @staticmethod
+    def backward(ctx,grad_out):
+        return ()
 
 class PointNetSetAbstraction(nn.Module):
     def __init__(self, npoint, radius, nsample, in_channel, mlp, group_all):
