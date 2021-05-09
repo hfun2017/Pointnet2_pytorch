@@ -3,9 +3,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 from time import time
 import numpy as np
-from torch.autograd import Function
 import sys
 import ctypes
+from torch.autograd import Function
+import pointnet2_ops._ext as _ext
 
 lib=ctypes.cdll.LoadLibrary("libmorton/encode.so")
 lib.encode.restype=ctypes.c_uint64
@@ -89,6 +90,39 @@ def farthest_point_sample(xyz, npoint):
         farthest = torch.max(distance, -1)[1]
     return centroids
 
+class FurthestPointSampling(Function):
+    @staticmethod
+    def forward(ctx, xyz, npoint):
+        # type: (Any, torch.Tensor, int) -> torch.Tensor
+        r"""
+        Uses iterative furthest point sampling to select a set of npoint features that have the largest
+        minimum distance
+
+        Parameters
+        ----------
+        xyz : torch.Tensor
+            (B, N, 3) tensor where N > npoint
+        npoint : int32
+            number of features in the sampled set
+
+        Returns
+        -------
+        torch.Tensor
+            (B, npoint) tensor containing the set
+        """
+        xyz=xyz.contiguous()
+        out = _ext.furthest_point_sampling(xyz, npoint)
+
+        ctx.mark_non_differentiable(out)
+
+        return out.type(torch.long).cuda()
+
+    @staticmethod
+    def backward(ctx, grad_out):
+        return ()
+
+
+farthest_point_sample = FurthestPointSampling.apply
 
 def query_ball_point(radius, nsample, xyz, new_xyz):
     """
@@ -112,6 +146,41 @@ def query_ball_point(radius, nsample, xyz, new_xyz):
     group_idx[mask] = group_first[mask]
     return group_idx
 
+class BallQuery(Function):
+    @staticmethod
+    def forward(ctx, radius, nsample, xyz, new_xyz):
+        # type: (Any, float, int, torch.Tensor, torch.Tensor) -> torch.Tensor
+        r"""
+
+        Parameters
+        ----------
+        radius : float
+            radius of the balls
+        nsample : int
+            maximum number of features in the balls
+        xyz : torch.Tensor
+            (B, N, 3) xyz coordinates of the features
+        new_xyz : torch.Tensor
+            (B, npoint, 3) centers of the ball query
+
+        Returns
+        -------
+        torch.Tensor
+            (B, npoint, nsample) tensor with the indicies of the features that form the query balls
+        """
+        new_xyz,xyz=new_xyz.contiguous(),xyz.contiguous()
+        output = _ext.ball_query(new_xyz, xyz, radius, nsample)
+
+        ctx.mark_non_differentiable(output)
+
+        return output.type(torch.long).cuda()
+
+    @staticmethod
+    def backward(ctx, grad_out):
+        return ()
+
+
+query_ball_point = BallQuery.apply
 
 def sample_and_group(npoint, radius, nsample, xyz, points, returnfps=False):
     """
