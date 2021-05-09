@@ -7,7 +7,7 @@ from torch.autograd import Function
 import sys
 import ctypes
 
-lib=ctypes.cdll.LoadLibrary("/root/Pointnet_Pointnet2_pytorch/libmorton/encode.so")
+lib=ctypes.cdll.LoadLibrary("libmorton/encode.so")
 lib.encode.restype=ctypes.c_uint64
 
 def timeit(tag, t):

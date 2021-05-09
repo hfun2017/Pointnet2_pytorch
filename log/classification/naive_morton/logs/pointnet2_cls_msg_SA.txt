@@ -796,3 +796,1571 @@
 2021-04-23 03:29:04,042 - Model - INFO - PARAMETER ...
 2021-04-23 03:29:04,042 - Model - INFO - Namespace(batch_size=12, decay_rate=0.0001, epoch=250, gpu='1', learning_rate=0.001, log_dir='naive_morton', model='pointnet2_cls_msg_SA', normal=True, num_point=1024, optimizer='Adam')
 2021-04-23 03:29:04,042 - Model - INFO - Load dataset ...
+2021-04-23 03:31:52,307 - Model - INFO - PARAMETER ...
+2021-04-23 03:31:52,307 - Model - INFO - Namespace(batch_size=12, decay_rate=0.0001, epoch=250, gpu='1', learning_rate=0.001, log_dir='naive_morton', model='pointnet2_cls_msg_SA', normal=True, num_point=1024, optimizer='Adam')
+2021-04-23 03:31:52,307 - Model - INFO - Load dataset ...
+2021-04-23 03:31:55,269 - Model - INFO - No existing model, starting training from scratch...
+2021-04-23 03:31:55,270 - Model - INFO - Start training...
+2021-04-23 03:31:55,270 - Model - INFO - Epoch 1 (1/250):
+2021-04-23 04:08:25,777 - Model - INFO - Train Instance Accuracy: 0.430775 ,mean_loss: 2.170776 
+2021-04-23 04:16:48,653 - Model - INFO - Test Instance Accuracy: 0.584547, Class Accuracy: 0.465651
+2021-04-23 04:16:48,653 - Model - INFO - Best Instance Accuracy: 0.584547, Class Accuracy: 0.465651
+2021-04-23 04:16:48,653 - Model - INFO - Save model...
+2021-04-23 04:16:48,653 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 04:16:48,698 - Model - INFO - Save model... ,epoch:0
+2021-04-23 04:16:48,698 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 04:16:48,738 - Model - INFO - Epoch 2 (2/250):
+2021-04-23 04:53:08,367 - Model - INFO - Train Instance Accuracy: 0.505278 ,mean_loss: 1.463862 
+2021-04-23 05:01:31,160 - Model - INFO - Test Instance Accuracy: 0.680623, Class Accuracy: 0.573715
+2021-04-23 05:01:31,160 - Model - INFO - Best Instance Accuracy: 0.680623, Class Accuracy: 0.573715
+2021-04-23 05:01:31,160 - Model - INFO - Save model...
+2021-04-23 05:01:31,160 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 05:01:31,207 - Model - INFO - Save model... ,epoch:1
+2021-04-23 05:01:31,207 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 05:01:31,252 - Model - INFO - Epoch 3 (3/250):
+2021-04-23 05:37:42,077 - Model - INFO - Train Instance Accuracy: 0.550311 ,mean_loss: 1.233391 
+2021-04-23 05:46:04,353 - Model - INFO - Test Instance Accuracy: 0.705704, Class Accuracy: 0.620081
+2021-04-23 05:46:04,353 - Model - INFO - Best Instance Accuracy: 0.705704, Class Accuracy: 0.620081
+2021-04-23 05:46:04,354 - Model - INFO - Save model...
+2021-04-23 05:46:04,354 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 05:46:04,402 - Model - INFO - Save model... ,epoch:2
+2021-04-23 05:46:04,402 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 05:46:04,446 - Model - INFO - Epoch 4 (4/250):
+2021-04-23 06:22:26,095 - Model - INFO - Train Instance Accuracy: 0.580669 ,mean_loss: 1.112565 
+2021-04-23 06:30:45,446 - Model - INFO - Test Instance Accuracy: 0.756068, Class Accuracy: 0.647561
+2021-04-23 06:30:45,446 - Model - INFO - Best Instance Accuracy: 0.756068, Class Accuracy: 0.647561
+2021-04-23 06:30:45,446 - Model - INFO - Save model...
+2021-04-23 06:30:45,446 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 06:30:45,494 - Model - INFO - Save model... ,epoch:3
+2021-04-23 06:30:45,494 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 06:30:45,539 - Model - INFO - Epoch 5 (5/250):
+2021-04-23 07:07:02,247 - Model - INFO - Train Instance Accuracy: 0.603471 ,mean_loss: 1.031896 
+2021-04-23 07:15:19,307 - Model - INFO - Test Instance Accuracy: 0.711570, Class Accuracy: 0.638953
+2021-04-23 07:15:19,307 - Model - INFO - Best Instance Accuracy: 0.756068, Class Accuracy: 0.647561
+2021-04-23 07:15:19,307 - Model - INFO - Save model... ,epoch:4
+2021-04-23 07:15:19,307 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 07:15:19,354 - Model - INFO - Epoch 6 (6/250):
+2021-04-23 07:51:43,158 - Model - INFO - Train Instance Accuracy: 0.622564 ,mean_loss: 0.958064 
+2021-04-23 08:00:01,786 - Model - INFO - Test Instance Accuracy: 0.797937, Class Accuracy: 0.706183
+2021-04-23 08:00:01,786 - Model - INFO - Best Instance Accuracy: 0.797937, Class Accuracy: 0.706183
+2021-04-23 08:00:01,786 - Model - INFO - Save model...
+2021-04-23 08:00:01,786 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 08:00:01,833 - Model - INFO - Save model... ,epoch:5
+2021-04-23 08:00:01,834 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 08:00:01,878 - Model - INFO - Epoch 7 (7/250):
+2021-04-23 08:36:18,756 - Model - INFO - Train Instance Accuracy: 0.637072 ,mean_loss: 0.920056 
+2021-04-23 08:44:36,688 - Model - INFO - Test Instance Accuracy: 0.761934, Class Accuracy: 0.690258
+2021-04-23 08:44:36,688 - Model - INFO - Best Instance Accuracy: 0.797937, Class Accuracy: 0.706183
+2021-04-23 08:44:36,688 - Model - INFO - Save model... ,epoch:6
+2021-04-23 08:44:36,688 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 08:44:36,735 - Model - INFO - Epoch 8 (8/250):
+2021-04-23 09:20:58,620 - Model - INFO - Train Instance Accuracy: 0.650185 ,mean_loss: 0.864735 
+2021-04-23 09:29:17,010 - Model - INFO - Test Instance Accuracy: 0.807443, Class Accuracy: 0.754858
+2021-04-23 09:29:17,010 - Model - INFO - Best Instance Accuracy: 0.807443, Class Accuracy: 0.754858
+2021-04-23 09:29:17,010 - Model - INFO - Save model...
+2021-04-23 09:29:17,011 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 09:29:17,058 - Model - INFO - Save model... ,epoch:7
+2021-04-23 09:29:17,058 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 09:29:17,103 - Model - INFO - Epoch 9 (9/250):
+2021-04-23 10:05:40,191 - Model - INFO - Train Instance Accuracy: 0.661005 ,mean_loss: 0.834027 
+2021-04-23 10:13:57,320 - Model - INFO - Test Instance Accuracy: 0.775890, Class Accuracy: 0.720854
+2021-04-23 10:13:57,320 - Model - INFO - Best Instance Accuracy: 0.807443, Class Accuracy: 0.754858
+2021-04-23 10:13:57,320 - Model - INFO - Save model... ,epoch:8
+2021-04-23 10:13:57,320 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 10:13:57,367 - Model - INFO - Epoch 10 (10/250):
+2021-04-23 10:50:13,554 - Model - INFO - Train Instance Accuracy: 0.670727 ,mean_loss: 0.821955 
+2021-04-23 10:58:32,015 - Model - INFO - Test Instance Accuracy: 0.823018, Class Accuracy: 0.752882
+2021-04-23 10:58:32,015 - Model - INFO - Best Instance Accuracy: 0.823018, Class Accuracy: 0.754858
+2021-04-23 10:58:32,015 - Model - INFO - Save model...
+2021-04-23 10:58:32,015 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 10:58:32,062 - Model - INFO - Save model... ,epoch:9
+2021-04-23 10:58:32,062 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 10:58:32,107 - Model - INFO - Epoch 11 (11/250):
+2021-04-23 11:35:02,778 - Model - INFO - Train Instance Accuracy: 0.679207 ,mean_loss: 0.804786 
+2021-04-23 11:43:24,548 - Model - INFO - Test Instance Accuracy: 0.817152, Class Accuracy: 0.768935
+2021-04-23 11:43:24,548 - Model - INFO - Best Instance Accuracy: 0.823018, Class Accuracy: 0.768935
+2021-04-23 11:43:24,548 - Model - INFO - Save model... ,epoch:10
+2021-04-23 11:43:24,548 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 11:43:24,595 - Model - INFO - Epoch 12 (12/250):
+2021-04-23 12:19:53,527 - Model - INFO - Train Instance Accuracy: 0.686290 ,mean_loss: 0.781150 
+2021-04-23 12:28:17,690 - Model - INFO - Test Instance Accuracy: 0.824029, Class Accuracy: 0.749062
+2021-04-23 12:28:17,690 - Model - INFO - Best Instance Accuracy: 0.824029, Class Accuracy: 0.768935
+2021-04-23 12:28:17,690 - Model - INFO - Save model...
+2021-04-23 12:28:17,690 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 12:28:17,738 - Model - INFO - Save model... ,epoch:11
+2021-04-23 12:28:17,738 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 12:28:17,784 - Model - INFO - Epoch 13 (13/250):
+2021-04-23 13:04:46,479 - Model - INFO - Train Instance Accuracy: 0.693674 ,mean_loss: 0.730739 
+2021-04-23 13:13:10,251 - Model - INFO - Test Instance Accuracy: 0.847694, Class Accuracy: 0.775417
+2021-04-23 13:13:10,251 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.775417
+2021-04-23 13:13:10,251 - Model - INFO - Save model...
+2021-04-23 13:13:10,251 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 13:13:10,299 - Model - INFO - Save model... ,epoch:12
+2021-04-23 13:13:10,299 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 13:13:10,344 - Model - INFO - Epoch 14 (14/250):
+2021-04-23 13:49:41,608 - Model - INFO - Train Instance Accuracy: 0.699959 ,mean_loss: 0.735293 
+2021-04-23 13:58:03,645 - Model - INFO - Test Instance Accuracy: 0.834547, Class Accuracy: 0.757879
+2021-04-23 13:58:03,645 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.775417
+2021-04-23 13:58:03,645 - Model - INFO - Save model... ,epoch:13
+2021-04-23 13:58:03,645 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 13:58:03,692 - Model - INFO - Epoch 15 (15/250):
+2021-04-23 14:34:29,805 - Model - INFO - Train Instance Accuracy: 0.706077 ,mean_loss: 0.701075 
+2021-04-23 14:42:52,265 - Model - INFO - Test Instance Accuracy: 0.832120, Class Accuracy: 0.777494
+2021-04-23 14:42:52,266 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.777494
+2021-04-23 14:42:52,266 - Model - INFO - Save model... ,epoch:14
+2021-04-23 14:42:52,266 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 14:42:52,313 - Model - INFO - Epoch 16 (16/250):
+2021-04-23 15:19:16,432 - Model - INFO - Train Instance Accuracy: 0.711619 ,mean_loss: 0.693295 
+2021-04-23 15:27:36,802 - Model - INFO - Test Instance Accuracy: 0.831715, Class Accuracy: 0.775802
+2021-04-23 15:27:36,802 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.777494
+2021-04-23 15:27:36,802 - Model - INFO - Save model... ,epoch:15
+2021-04-23 15:27:36,802 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 15:27:36,850 - Model - INFO - Epoch 17 (17/250):
+2021-04-23 16:04:00,718 - Model - INFO - Train Instance Accuracy: 0.716660 ,mean_loss: 0.675860 
+2021-04-23 16:12:23,527 - Model - INFO - Test Instance Accuracy: 0.837985, Class Accuracy: 0.784806
+2021-04-23 16:12:23,527 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.784806
+2021-04-23 16:12:23,527 - Model - INFO - Save model... ,epoch:16
+2021-04-23 16:12:23,527 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 16:12:23,574 - Model - INFO - Epoch 18 (18/250):
+2021-04-23 16:48:48,671 - Model - INFO - Train Instance Accuracy: 0.721359 ,mean_loss: 0.649793 
+2021-04-23 16:57:08,190 - Model - INFO - Test Instance Accuracy: 0.844256, Class Accuracy: 0.781895
+2021-04-23 16:57:08,190 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.784806
+2021-04-23 16:57:08,190 - Model - INFO - Save model... ,epoch:17
+2021-04-23 16:57:08,190 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 16:57:08,238 - Model - INFO - Epoch 19 (19/250):
+2021-04-23 17:33:44,440 - Model - INFO - Train Instance Accuracy: 0.725789 ,mean_loss: 0.640158 
+2021-04-23 17:42:04,118 - Model - INFO - Test Instance Accuracy: 0.834142, Class Accuracy: 0.789117
+2021-04-23 17:42:04,118 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.789117
+2021-04-23 17:42:04,118 - Model - INFO - Save model... ,epoch:18
+2021-04-23 17:42:04,118 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 17:42:04,165 - Model - INFO - Epoch 20 (20/250):
+2021-04-23 18:18:40,103 - Model - INFO - Train Instance Accuracy: 0.729933 ,mean_loss: 0.631936 
+2021-04-23 18:27:06,461 - Model - INFO - Test Instance Accuracy: 0.834749, Class Accuracy: 0.777422
+2021-04-23 18:27:06,461 - Model - INFO - Best Instance Accuracy: 0.847694, Class Accuracy: 0.789117
+2021-04-23 18:27:06,462 - Model - INFO - Save model... ,epoch:19
+2021-04-23 18:27:06,462 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 18:27:06,509 - Model - INFO - Epoch 21 (21/250):
+2021-04-23 19:03:36,281 - Model - INFO - Train Instance Accuracy: 0.734596 ,mean_loss: 0.553143 
+2021-04-23 19:11:55,336 - Model - INFO - Test Instance Accuracy: 0.857807, Class Accuracy: 0.792321
+2021-04-23 19:11:55,336 - Model - INFO - Best Instance Accuracy: 0.857807, Class Accuracy: 0.792321
+2021-04-23 19:11:55,336 - Model - INFO - Save model...
+2021-04-23 19:11:55,336 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 19:11:55,384 - Model - INFO - Save model... ,epoch:20
+2021-04-23 19:11:55,384 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 19:11:55,429 - Model - INFO - Epoch 22 (22/250):
+2021-04-23 19:48:19,206 - Model - INFO - Train Instance Accuracy: 0.739167 ,mean_loss: 0.539439 
+2021-04-23 19:56:38,603 - Model - INFO - Test Instance Accuracy: 0.861650, Class Accuracy: 0.817390
+2021-04-23 19:56:38,603 - Model - INFO - Best Instance Accuracy: 0.861650, Class Accuracy: 0.817390
+2021-04-23 19:56:38,603 - Model - INFO - Save model...
+2021-04-23 19:56:38,603 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 19:56:38,651 - Model - INFO - Save model... ,epoch:21
+2021-04-23 19:56:38,651 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 19:56:38,696 - Model - INFO - Epoch 23 (23/250):
+2021-04-23 20:33:05,471 - Model - INFO - Train Instance Accuracy: 0.743522 ,mean_loss: 0.524692 
+2021-04-23 20:41:27,541 - Model - INFO - Test Instance Accuracy: 0.872775, Class Accuracy: 0.818718
+2021-04-23 20:41:27,541 - Model - INFO - Best Instance Accuracy: 0.872775, Class Accuracy: 0.818718
+2021-04-23 20:41:27,541 - Model - INFO - Save model...
+2021-04-23 20:41:27,541 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 20:41:27,589 - Model - INFO - Save model... ,epoch:22
+2021-04-23 20:41:27,589 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 20:41:27,634 - Model - INFO - Epoch 24 (24/250):
+2021-04-23 21:17:49,203 - Model - INFO - Train Instance Accuracy: 0.747627 ,mean_loss: 0.523380 
+2021-04-23 21:26:10,641 - Model - INFO - Test Instance Accuracy: 0.873382, Class Accuracy: 0.826884
+2021-04-23 21:26:10,641 - Model - INFO - Best Instance Accuracy: 0.873382, Class Accuracy: 0.826884
+2021-04-23 21:26:10,641 - Model - INFO - Save model...
+2021-04-23 21:26:10,642 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 21:26:10,689 - Model - INFO - Save model... ,epoch:23
+2021-04-23 21:26:10,689 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 21:26:10,734 - Model - INFO - Epoch 25 (25/250):
+2021-04-23 22:02:32,311 - Model - INFO - Train Instance Accuracy: 0.751441 ,mean_loss: 0.508028 
+2021-04-23 22:10:53,198 - Model - INFO - Test Instance Accuracy: 0.875809, Class Accuracy: 0.836354
+2021-04-23 22:10:53,198 - Model - INFO - Best Instance Accuracy: 0.875809, Class Accuracy: 0.836354
+2021-04-23 22:10:53,198 - Model - INFO - Save model...
+2021-04-23 22:10:53,199 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-23 22:10:53,246 - Model - INFO - Save model... ,epoch:24
+2021-04-23 22:10:53,246 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 22:10:53,291 - Model - INFO - Epoch 26 (26/250):
+2021-04-23 22:47:21,911 - Model - INFO - Train Instance Accuracy: 0.754778 ,mean_loss: 0.529808 
+2021-04-23 22:55:44,785 - Model - INFO - Test Instance Accuracy: 0.860437, Class Accuracy: 0.820501
+2021-04-23 22:55:44,785 - Model - INFO - Best Instance Accuracy: 0.875809, Class Accuracy: 0.836354
+2021-04-23 22:55:44,785 - Model - INFO - Save model... ,epoch:25
+2021-04-23 22:55:44,785 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 22:55:44,834 - Model - INFO - Epoch 27 (27/250):
+2021-04-23 23:32:12,413 - Model - INFO - Train Instance Accuracy: 0.758361 ,mean_loss: 0.482540 
+2021-04-23 23:40:35,466 - Model - INFO - Test Instance Accuracy: 0.862055, Class Accuracy: 0.830483
+2021-04-23 23:40:35,466 - Model - INFO - Best Instance Accuracy: 0.875809, Class Accuracy: 0.836354
+2021-04-23 23:40:35,467 - Model - INFO - Save model... ,epoch:26
+2021-04-23 23:40:35,467 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-23 23:40:35,514 - Model - INFO - Epoch 28 (28/250):
+2021-04-24 00:17:03,063 - Model - INFO - Train Instance Accuracy: 0.761753 ,mean_loss: 0.484131 
+2021-04-24 00:25:24,079 - Model - INFO - Test Instance Accuracy: 0.860235, Class Accuracy: 0.819398
+2021-04-24 00:25:24,079 - Model - INFO - Best Instance Accuracy: 0.875809, Class Accuracy: 0.836354
+2021-04-24 00:25:24,079 - Model - INFO - Save model... ,epoch:27
+2021-04-24 00:25:24,079 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-24 00:25:24,127 - Model - INFO - Epoch 29 (29/250):
+2021-04-24 01:01:55,038 - Model - INFO - Train Instance Accuracy: 0.764798 ,mean_loss: 0.491424 
+2021-04-24 01:10:18,107 - Model - INFO - Test Instance Accuracy: 0.870550, Class Accuracy: 0.834230
+2021-04-24 01:10:18,107 - Model - INFO - Best Instance Accuracy: 0.875809, Class Accuracy: 0.836354
+2021-04-24 01:10:18,107 - Model - INFO - Save model... ,epoch:28
+2021-04-24 01:10:18,107 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-24 01:10:18,155 - Model - INFO - Epoch 30 (30/250):
+2021-04-24 01:46:46,834 - Model - INFO - Train Instance Accuracy: 0.767732 ,mean_loss: 0.483840 
+2021-04-24 01:55:07,903 - Model - INFO - Test Instance Accuracy: 0.865291, Class Accuracy: 0.818979
+2021-04-24 01:55:07,904 - Model - INFO - Best Instance Accuracy: 0.875809, Class Accuracy: 0.836354
+2021-04-24 01:55:07,904 - Model - INFO - Save model... ,epoch:29
+2021-04-24 01:55:07,904 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-24 01:55:07,950 - Model - INFO - Epoch 31 (31/250):
+2021-04-24 02:31:23,882 - Model - INFO - Train Instance Accuracy: 0.770431 ,mean_loss: 0.481838 
+2021-04-24 02:39:42,995 - Model - INFO - Test Instance Accuracy: 0.897451, Class Accuracy: 0.857986
+2021-04-24 02:39:42,995 - Model - INFO - Best Instance Accuracy: 0.897451, Class Accuracy: 0.857986
+2021-04-24 02:39:42,995 - Model - INFO - Save model...
+2021-04-24 02:39:42,995 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-24 02:39:43,042 - Model - INFO - Save model... ,epoch:30
+2021-04-24 02:39:43,042 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-24 02:39:43,087 - Model - INFO - Epoch 32 (32/250):
+2021-04-26 01:51:21,121 - Model - INFO - PARAMETER ...
+2021-04-26 01:51:21,121 - Model - INFO - Namespace(batch_size=12, decay_rate=0.0001, epoch=250, gpu='1', learning_rate=0.001, log_dir='naive_morton', model='pointnet2_cls_msg_SA', normal=True, num_point=1024, optimizer='Adam')
+2021-04-26 01:51:21,121 - Model - INFO - Load dataset ...
+2021-04-26 01:51:35,957 - Model - INFO - Use pretrain model
+2021-04-26 01:51:35,959 - Model - INFO - Start training...
+2021-04-26 01:51:35,959 - Model - INFO - Epoch 1 (32/250):
+2021-04-26 02:27:55,728 - Model - INFO - Train Instance Accuracy: 0.859622 ,mean_loss: 0.453328 
+2021-04-26 02:36:15,283 - Model - INFO - Test Instance Accuracy: 0.880057, Class Accuracy: 0.831351
+2021-04-26 02:36:15,283 - Model - INFO - Best Instance Accuracy: 0.880057, Class Accuracy: 0.831351
+2021-04-26 02:36:15,283 - Model - INFO - Save model...
+2021-04-26 02:36:15,283 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-26 02:36:15,357 - Model - INFO - Save model... ,epoch:31
+2021-04-26 02:36:15,357 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 02:36:15,401 - Model - INFO - Epoch 2 (33/250):
+2021-04-26 03:12:27,393 - Model - INFO - Train Instance Accuracy: 0.858912 ,mean_loss: 0.459879 
+2021-04-26 03:20:43,569 - Model - INFO - Test Instance Accuracy: 0.881675, Class Accuracy: 0.858843
+2021-04-26 03:20:43,569 - Model - INFO - Best Instance Accuracy: 0.881675, Class Accuracy: 0.858843
+2021-04-26 03:20:43,569 - Model - INFO - Save model...
+2021-04-26 03:20:43,569 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-26 03:20:43,631 - Model - INFO - Save model... ,epoch:32
+2021-04-26 03:20:43,632 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 03:20:43,768 - Model - INFO - Epoch 3 (34/250):
+2021-04-26 03:57:00,880 - Model - INFO - Train Instance Accuracy: 0.856950 ,mean_loss: 0.474140 
+2021-04-26 04:05:15,193 - Model - INFO - Test Instance Accuracy: 0.875607, Class Accuracy: 0.841039
+2021-04-26 04:05:15,193 - Model - INFO - Best Instance Accuracy: 0.881675, Class Accuracy: 0.858843
+2021-04-26 04:05:15,193 - Model - INFO - Save model... ,epoch:33
+2021-04-26 04:05:15,193 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 04:05:15,365 - Model - INFO - Epoch 4 (35/250):
+2021-04-26 04:41:36,763 - Model - INFO - Train Instance Accuracy: 0.858430 ,mean_loss: 0.442371 
+2021-04-26 04:49:50,920 - Model - INFO - Test Instance Accuracy: 0.890170, Class Accuracy: 0.847462
+2021-04-26 04:49:50,920 - Model - INFO - Best Instance Accuracy: 0.890170, Class Accuracy: 0.858843
+2021-04-26 04:49:50,920 - Model - INFO - Save model...
+2021-04-26 04:49:50,920 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-26 04:49:51,089 - Model - INFO - Save model... ,epoch:34
+2021-04-26 04:49:51,090 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 04:49:51,236 - Model - INFO - Epoch 5 (36/250):
+2021-04-26 05:26:07,867 - Model - INFO - Train Instance Accuracy: 0.859480 ,mean_loss: 0.441771 
+2021-04-26 05:34:24,221 - Model - INFO - Test Instance Accuracy: 0.887945, Class Accuracy: 0.851013
+2021-04-26 05:34:24,221 - Model - INFO - Best Instance Accuracy: 0.890170, Class Accuracy: 0.858843
+2021-04-26 05:34:24,221 - Model - INFO - Save model... ,epoch:35
+2021-04-26 05:34:24,221 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 05:34:24,409 - Model - INFO - Epoch 6 (37/250):
+2021-04-26 06:10:32,782 - Model - INFO - Train Instance Accuracy: 0.859978 ,mean_loss: 0.441479 
+2021-04-26 06:18:52,468 - Model - INFO - Test Instance Accuracy: 0.877427, Class Accuracy: 0.846863
+2021-04-26 06:18:52,469 - Model - INFO - Best Instance Accuracy: 0.890170, Class Accuracy: 0.858843
+2021-04-26 06:18:52,469 - Model - INFO - Save model... ,epoch:36
+2021-04-26 06:18:52,469 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 06:18:52,539 - Model - INFO - Epoch 7 (38/250):
+2021-04-26 06:55:09,861 - Model - INFO - Train Instance Accuracy: 0.860898 ,mean_loss: 0.435953 
+2021-04-26 07:03:28,994 - Model - INFO - Test Instance Accuracy: 0.884506, Class Accuracy: 0.858171
+2021-04-26 07:03:28,994 - Model - INFO - Best Instance Accuracy: 0.890170, Class Accuracy: 0.858843
+2021-04-26 07:03:28,994 - Model - INFO - Save model... ,epoch:37
+2021-04-26 07:03:28,994 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 07:03:29,042 - Model - INFO - Epoch 8 (39/250):
+2021-04-26 07:39:45,139 - Model - INFO - Train Instance Accuracy: 0.861056 ,mean_loss: 0.441680 
+2021-04-26 07:47:59,909 - Model - INFO - Test Instance Accuracy: 0.877023, Class Accuracy: 0.839572
+2021-04-26 07:47:59,909 - Model - INFO - Best Instance Accuracy: 0.890170, Class Accuracy: 0.858843
+2021-04-26 07:47:59,909 - Model - INFO - Save model... ,epoch:38
+2021-04-26 07:47:59,909 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 07:47:59,956 - Model - INFO - Epoch 9 (40/250):
+2021-04-26 08:24:13,928 - Model - INFO - Train Instance Accuracy: 0.861235 ,mean_loss: 0.431329 
+2021-04-26 08:32:28,353 - Model - INFO - Test Instance Accuracy: 0.879248, Class Accuracy: 0.854980
+2021-04-26 08:32:28,354 - Model - INFO - Best Instance Accuracy: 0.890170, Class Accuracy: 0.858843
+2021-04-26 08:32:28,354 - Model - INFO - Save model... ,epoch:39
+2021-04-26 08:32:28,354 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 08:32:28,402 - Model - INFO - Epoch 10 (41/250):
+2021-04-26 09:08:47,822 - Model - INFO - Train Instance Accuracy: 0.863073 ,mean_loss: 0.387190 
+2021-04-26 09:17:05,693 - Model - INFO - Test Instance Accuracy: 0.891586, Class Accuracy: 0.860249
+2021-04-26 09:17:05,694 - Model - INFO - Best Instance Accuracy: 0.891586, Class Accuracy: 0.860249
+2021-04-26 09:17:05,694 - Model - INFO - Save model...
+2021-04-26 09:17:05,694 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-26 09:17:05,741 - Model - INFO - Save model... ,epoch:40
+2021-04-26 09:17:05,741 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 09:17:05,786 - Model - INFO - Epoch 11 (42/250):
+2021-04-26 09:53:17,865 - Model - INFO - Train Instance Accuracy: 0.864984 ,mean_loss: 0.373524 
+2021-04-26 10:01:33,820 - Model - INFO - Test Instance Accuracy: 0.892597, Class Accuracy: 0.870124
+2021-04-26 10:01:33,820 - Model - INFO - Best Instance Accuracy: 0.892597, Class Accuracy: 0.870124
+2021-04-26 10:01:33,820 - Model - INFO - Save model...
+2021-04-26 10:01:33,820 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-26 10:01:33,867 - Model - INFO - Save model... ,epoch:41
+2021-04-26 10:01:33,867 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 10:01:34,069 - Model - INFO - Epoch 12 (43/250):
+2021-04-26 10:37:50,464 - Model - INFO - Train Instance Accuracy: 0.866423 ,mean_loss: 0.378362 
+2021-04-26 10:46:06,935 - Model - INFO - Test Instance Accuracy: 0.905947, Class Accuracy: 0.869034
+2021-04-26 10:46:06,935 - Model - INFO - Best Instance Accuracy: 0.905947, Class Accuracy: 0.870124
+2021-04-26 10:46:06,935 - Model - INFO - Save model...
+2021-04-26 10:46:06,935 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-26 10:46:06,981 - Model - INFO - Save model... ,epoch:42
+2021-04-26 10:46:06,981 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 10:46:07,026 - Model - INFO - Epoch 13 (44/250):
+2021-04-26 11:22:20,436 - Model - INFO - Train Instance Accuracy: 0.867836 ,mean_loss: 0.367534 
+2021-04-26 11:30:37,469 - Model - INFO - Test Instance Accuracy: 0.902508, Class Accuracy: 0.873848
+2021-04-26 11:30:37,469 - Model - INFO - Best Instance Accuracy: 0.905947, Class Accuracy: 0.873848
+2021-04-26 11:30:37,469 - Model - INFO - Save model... ,epoch:43
+2021-04-26 11:30:37,469 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 11:30:37,517 - Model - INFO - Epoch 14 (45/250):
+2021-04-26 12:06:50,179 - Model - INFO - Train Instance Accuracy: 0.868997 ,mean_loss: 0.366956 
+2021-04-26 12:15:06,144 - Model - INFO - Test Instance Accuracy: 0.900688, Class Accuracy: 0.879216
+2021-04-26 12:15:06,144 - Model - INFO - Best Instance Accuracy: 0.905947, Class Accuracy: 0.879216
+2021-04-26 12:15:06,144 - Model - INFO - Save model... ,epoch:44
+2021-04-26 12:15:06,144 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 12:15:06,192 - Model - INFO - Epoch 15 (46/250):
+2021-04-26 12:51:17,941 - Model - INFO - Train Instance Accuracy: 0.870639 ,mean_loss: 0.348703 
+2021-04-26 12:59:36,079 - Model - INFO - Test Instance Accuracy: 0.887136, Class Accuracy: 0.855411
+2021-04-26 12:59:36,079 - Model - INFO - Best Instance Accuracy: 0.905947, Class Accuracy: 0.879216
+2021-04-26 12:59:36,079 - Model - INFO - Save model... ,epoch:45
+2021-04-26 12:59:36,079 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 12:59:36,125 - Model - INFO - Epoch 16 (47/250):
+2021-04-26 13:35:47,192 - Model - INFO - Train Instance Accuracy: 0.871885 ,mean_loss: 0.355650 
+2021-04-26 13:44:05,899 - Model - INFO - Test Instance Accuracy: 0.890372, Class Accuracy: 0.856866
+2021-04-26 13:44:05,899 - Model - INFO - Best Instance Accuracy: 0.905947, Class Accuracy: 0.879216
+2021-04-26 13:44:05,899 - Model - INFO - Save model... ,epoch:46
+2021-04-26 13:44:05,899 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 13:44:05,947 - Model - INFO - Epoch 17 (48/250):
+2021-04-26 14:20:16,807 - Model - INFO - Train Instance Accuracy: 0.872931 ,mean_loss: 0.355306 
+2021-04-26 14:28:34,787 - Model - INFO - Test Instance Accuracy: 0.890777, Class Accuracy: 0.865558
+2021-04-26 14:28:34,787 - Model - INFO - Best Instance Accuracy: 0.905947, Class Accuracy: 0.879216
+2021-04-26 14:28:34,787 - Model - INFO - Save model... ,epoch:47
+2021-04-26 14:28:34,787 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 14:28:34,835 - Model - INFO - Epoch 18 (49/250):
+2021-04-26 15:04:42,744 - Model - INFO - Train Instance Accuracy: 0.873861 ,mean_loss: 0.355377 
+2021-04-26 15:12:58,199 - Model - INFO - Test Instance Accuracy: 0.900283, Class Accuracy: 0.872500
+2021-04-26 15:12:58,199 - Model - INFO - Best Instance Accuracy: 0.905947, Class Accuracy: 0.879216
+2021-04-26 15:12:58,200 - Model - INFO - Save model... ,epoch:48
+2021-04-26 15:12:58,200 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 15:12:58,247 - Model - INFO - Epoch 19 (50/250):
+2021-04-26 15:49:10,519 - Model - INFO - Train Instance Accuracy: 0.874842 ,mean_loss: 0.346857 
+2021-04-26 15:57:25,226 - Model - INFO - Test Instance Accuracy: 0.907362, Class Accuracy: 0.874913
+2021-04-26 15:57:25,226 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 15:57:25,226 - Model - INFO - Save model...
+2021-04-26 15:57:25,226 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-26 15:57:25,271 - Model - INFO - Save model... ,epoch:49
+2021-04-26 15:57:25,272 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 15:57:25,317 - Model - INFO - Epoch 20 (51/250):
+2021-04-26 16:33:45,733 - Model - INFO - Train Instance Accuracy: 0.875655 ,mean_loss: 0.345303 
+2021-04-26 16:42:01,460 - Model - INFO - Test Instance Accuracy: 0.901294, Class Accuracy: 0.867833
+2021-04-26 16:42:01,460 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 16:42:01,460 - Model - INFO - Save model... ,epoch:50
+2021-04-26 16:42:01,460 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 16:42:01,507 - Model - INFO - Epoch 21 (52/250):
+2021-04-26 17:18:08,667 - Model - INFO - Train Instance Accuracy: 0.876346 ,mean_loss: 0.343900 
+2021-04-26 17:26:24,341 - Model - INFO - Test Instance Accuracy: 0.886327, Class Accuracy: 0.856742
+2021-04-26 17:26:24,342 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 17:26:24,342 - Model - INFO - Save model... ,epoch:51
+2021-04-26 17:26:24,342 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 17:26:24,389 - Model - INFO - Epoch 22 (53/250):
+2021-04-26 18:02:36,479 - Model - INFO - Train Instance Accuracy: 0.876910 ,mean_loss: 0.351543 
+2021-04-26 18:10:53,662 - Model - INFO - Test Instance Accuracy: 0.897654, Class Accuracy: 0.864844
+2021-04-26 18:10:53,663 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 18:10:53,663 - Model - INFO - Save model... ,epoch:52
+2021-04-26 18:10:53,663 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 18:10:53,710 - Model - INFO - Epoch 23 (54/250):
+2021-04-26 18:46:57,444 - Model - INFO - Train Instance Accuracy: 0.877769 ,mean_loss: 0.333131 
+2021-04-26 18:55:14,581 - Model - INFO - Test Instance Accuracy: 0.899676, Class Accuracy: 0.866296
+2021-04-26 18:55:14,581 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 18:55:14,581 - Model - INFO - Save model... ,epoch:53
+2021-04-26 18:55:14,581 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 18:55:14,629 - Model - INFO - Epoch 24 (55/250):
+2021-04-26 19:31:25,325 - Model - INFO - Train Instance Accuracy: 0.878426 ,mean_loss: 0.333793 
+2021-04-26 19:39:39,893 - Model - INFO - Test Instance Accuracy: 0.906756, Class Accuracy: 0.877778
+2021-04-26 19:39:39,893 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 19:39:39,893 - Model - INFO - Save model... ,epoch:54
+2021-04-26 19:39:39,893 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 19:39:39,940 - Model - INFO - Epoch 25 (56/250):
+2021-04-26 20:15:49,297 - Model - INFO - Train Instance Accuracy: 0.879208 ,mean_loss: 0.328969 
+2021-04-26 20:24:08,539 - Model - INFO - Test Instance Accuracy: 0.897654, Class Accuracy: 0.867381
+2021-04-26 20:24:08,540 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 20:24:08,540 - Model - INFO - Save model... ,epoch:55
+2021-04-26 20:24:08,540 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 20:24:08,587 - Model - INFO - Epoch 26 (57/250):
+2021-04-26 21:00:16,530 - Model - INFO - Train Instance Accuracy: 0.879751 ,mean_loss: 0.339887 
+2021-04-26 21:08:33,402 - Model - INFO - Test Instance Accuracy: 0.907160, Class Accuracy: 0.870055
+2021-04-26 21:08:33,402 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 21:08:33,402 - Model - INFO - Save model... ,epoch:56
+2021-04-26 21:08:33,402 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 21:08:33,450 - Model - INFO - Epoch 27 (58/250):
+2021-04-26 21:44:47,439 - Model - INFO - Train Instance Accuracy: 0.880306 ,mean_loss: 0.336522 
+2021-04-26 21:53:04,397 - Model - INFO - Test Instance Accuracy: 0.900081, Class Accuracy: 0.867865
+2021-04-26 21:53:04,397 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 21:53:04,397 - Model - INFO - Save model... ,epoch:57
+2021-04-26 21:53:04,397 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 21:53:04,445 - Model - INFO - Epoch 28 (59/250):
+2021-04-26 22:29:17,221 - Model - INFO - Train Instance Accuracy: 0.881054 ,mean_loss: 0.321671 
+2021-04-26 22:37:32,048 - Model - INFO - Test Instance Accuracy: 0.902104, Class Accuracy: 0.864346
+2021-04-26 22:37:32,048 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 22:37:32,048 - Model - INFO - Save model... ,epoch:58
+2021-04-26 22:37:32,048 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 22:37:32,095 - Model - INFO - Epoch 29 (60/250):
+2021-04-26 23:13:44,902 - Model - INFO - Train Instance Accuracy: 0.881718 ,mean_loss: 0.317479 
+2021-04-26 23:22:02,188 - Model - INFO - Test Instance Accuracy: 0.905138, Class Accuracy: 0.864722
+2021-04-26 23:22:02,189 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-26 23:22:02,189 - Model - INFO - Save model... ,epoch:59
+2021-04-26 23:22:02,189 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-26 23:22:02,236 - Model - INFO - Epoch 30 (61/250):
+2021-04-26 23:58:06,675 - Model - INFO - Train Instance Accuracy: 0.882596 ,mean_loss: 0.287153 
+2021-04-27 00:06:22,874 - Model - INFO - Test Instance Accuracy: 0.904126, Class Accuracy: 0.866314
+2021-04-27 00:06:22,874 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-27 00:06:22,874 - Model - INFO - Save model... ,epoch:60
+2021-04-27 00:06:22,874 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 00:06:22,922 - Model - INFO - Epoch 31 (62/250):
+2021-04-27 00:42:33,535 - Model - INFO - Train Instance Accuracy: 0.883466 ,mean_loss: 0.287101 
+2021-04-27 00:50:51,704 - Model - INFO - Test Instance Accuracy: 0.905947, Class Accuracy: 0.873903
+2021-04-27 00:50:51,705 - Model - INFO - Best Instance Accuracy: 0.907362, Class Accuracy: 0.879216
+2021-04-27 00:50:51,705 - Model - INFO - Save model... ,epoch:61
+2021-04-27 00:50:51,705 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 00:50:51,753 - Model - INFO - Epoch 32 (63/250):
+2021-04-27 01:27:00,600 - Model - INFO - Train Instance Accuracy: 0.884208 ,mean_loss: 0.293436 
+2021-04-27 01:35:15,443 - Model - INFO - Test Instance Accuracy: 0.909183, Class Accuracy: 0.877888
+2021-04-27 01:35:15,443 - Model - INFO - Best Instance Accuracy: 0.909183, Class Accuracy: 0.879216
+2021-04-27 01:35:15,443 - Model - INFO - Save model...
+2021-04-27 01:35:15,443 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-27 01:35:15,490 - Model - INFO - Save model... ,epoch:62
+2021-04-27 01:35:15,490 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 01:35:15,536 - Model - INFO - Epoch 33 (64/250):
+2021-04-27 02:11:29,318 - Model - INFO - Train Instance Accuracy: 0.885007 ,mean_loss: 0.283036 
+2021-04-27 02:19:44,598 - Model - INFO - Test Instance Accuracy: 0.900081, Class Accuracy: 0.876033
+2021-04-27 02:19:44,599 - Model - INFO - Best Instance Accuracy: 0.909183, Class Accuracy: 0.879216
+2021-04-27 02:19:44,599 - Model - INFO - Save model... ,epoch:63
+2021-04-27 02:19:44,599 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 02:19:44,646 - Model - INFO - Epoch 34 (65/250):
+2021-04-27 02:55:57,475 - Model - INFO - Train Instance Accuracy: 0.885810 ,mean_loss: 0.270690 
+2021-04-27 03:04:16,789 - Model - INFO - Test Instance Accuracy: 0.914644, Class Accuracy: 0.879115
+2021-04-27 03:04:16,789 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 03:04:16,789 - Model - INFO - Save model...
+2021-04-27 03:04:16,789 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-27 03:04:16,836 - Model - INFO - Save model... ,epoch:64
+2021-04-27 03:04:16,836 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 03:04:17,060 - Model - INFO - Epoch 35 (66/250):
+2021-04-27 03:40:26,458 - Model - INFO - Train Instance Accuracy: 0.886584 ,mean_loss: 0.282388 
+2021-04-27 03:48:45,962 - Model - INFO - Test Instance Accuracy: 0.901699, Class Accuracy: 0.864878
+2021-04-27 03:48:45,962 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 03:48:45,962 - Model - INFO - Save model... ,epoch:65
+2021-04-27 03:48:45,962 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 03:48:46,024 - Model - INFO - Epoch 36 (67/250):
+2021-04-27 04:25:03,676 - Model - INFO - Train Instance Accuracy: 0.887378 ,mean_loss: 0.266176 
+2021-04-27 04:33:23,503 - Model - INFO - Test Instance Accuracy: 0.900081, Class Accuracy: 0.864667
+2021-04-27 04:33:23,504 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 04:33:23,504 - Model - INFO - Save model... ,epoch:66
+2021-04-27 04:33:23,504 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 04:33:23,551 - Model - INFO - Epoch 37 (68/250):
+2021-04-27 05:09:43,629 - Model - INFO - Train Instance Accuracy: 0.888109 ,mean_loss: 0.267075 
+2021-04-27 05:18:01,784 - Model - INFO - Test Instance Accuracy: 0.906149, Class Accuracy: 0.867335
+2021-04-27 05:18:01,784 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 05:18:01,784 - Model - INFO - Save model... ,epoch:67
+2021-04-27 05:18:01,784 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 05:18:01,831 - Model - INFO - Epoch 38 (69/250):
+2021-04-27 05:54:13,731 - Model - INFO - Train Instance Accuracy: 0.888727 ,mean_loss: 0.268708 
+2021-04-27 06:02:33,112 - Model - INFO - Test Instance Accuracy: 0.899272, Class Accuracy: 0.866840
+2021-04-27 06:02:33,112 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 06:02:33,112 - Model - INFO - Save model... ,epoch:68
+2021-04-27 06:02:33,112 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 06:02:33,160 - Model - INFO - Epoch 39 (70/250):
+2021-04-27 06:38:53,653 - Model - INFO - Train Instance Accuracy: 0.889508 ,mean_loss: 0.256709 
+2021-04-27 06:47:11,349 - Model - INFO - Test Instance Accuracy: 0.902913, Class Accuracy: 0.872613
+2021-04-27 06:47:11,350 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 06:47:11,350 - Model - INFO - Save model... ,epoch:69
+2021-04-27 06:47:11,350 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 06:47:11,397 - Model - INFO - Epoch 40 (71/250):
+2021-04-27 07:23:29,196 - Model - INFO - Train Instance Accuracy: 0.890182 ,mean_loss: 0.265494 
+2021-04-27 07:31:43,937 - Model - INFO - Test Instance Accuracy: 0.903722, Class Accuracy: 0.878316
+2021-04-27 07:31:43,937 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 07:31:43,937 - Model - INFO - Save model... ,epoch:70
+2021-04-27 07:31:43,937 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 07:31:43,984 - Model - INFO - Epoch 41 (72/250):
+2021-04-27 08:07:48,802 - Model - INFO - Train Instance Accuracy: 0.890734 ,mean_loss: 0.267487 
+2021-04-27 08:16:08,490 - Model - INFO - Test Instance Accuracy: 0.909790, Class Accuracy: 0.878151
+2021-04-27 08:16:08,490 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 08:16:08,490 - Model - INFO - Save model... ,epoch:71
+2021-04-27 08:16:08,490 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 08:16:08,538 - Model - INFO - Epoch 42 (73/250):
+2021-04-27 08:52:30,446 - Model - INFO - Train Instance Accuracy: 0.891277 ,mean_loss: 0.265009 
+2021-04-27 09:00:48,886 - Model - INFO - Test Instance Accuracy: 0.912217, Class Accuracy: 0.878831
+2021-04-27 09:00:48,886 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 09:00:48,886 - Model - INFO - Save model... ,epoch:72
+2021-04-27 09:00:48,886 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 09:00:48,933 - Model - INFO - Epoch 43 (74/250):
+2021-04-27 09:36:59,861 - Model - INFO - Train Instance Accuracy: 0.891851 ,mean_loss: 0.263734 
+2021-04-27 09:45:18,439 - Model - INFO - Test Instance Accuracy: 0.899070, Class Accuracy: 0.869245
+2021-04-27 09:45:18,439 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 09:45:18,439 - Model - INFO - Save model... ,epoch:73
+2021-04-27 09:45:18,439 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 09:45:18,487 - Model - INFO - Epoch 44 (75/250):
+2021-04-27 10:21:22,424 - Model - INFO - Train Instance Accuracy: 0.892357 ,mean_loss: 0.268978 
+2021-04-27 10:29:38,926 - Model - INFO - Test Instance Accuracy: 0.901699, Class Accuracy: 0.863811
+2021-04-27 10:29:38,926 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 10:29:38,926 - Model - INFO - Save model... ,epoch:74
+2021-04-27 10:29:38,926 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 10:29:38,974 - Model - INFO - Epoch 45 (76/250):
+2021-04-27 11:05:55,566 - Model - INFO - Train Instance Accuracy: 0.892845 ,mean_loss: 0.261272 
+2021-04-27 11:14:10,966 - Model - INFO - Test Instance Accuracy: 0.902913, Class Accuracy: 0.872876
+2021-04-27 11:14:10,966 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879216
+2021-04-27 11:14:10,966 - Model - INFO - Save model... ,epoch:75
+2021-04-27 11:14:10,966 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 11:14:11,014 - Model - INFO - Epoch 46 (77/250):
+2021-04-27 11:50:33,066 - Model - INFO - Train Instance Accuracy: 0.893348 ,mean_loss: 0.260098 
+2021-04-27 11:58:47,774 - Model - INFO - Test Instance Accuracy: 0.905744, Class Accuracy: 0.879687
+2021-04-27 11:58:47,774 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879687
+2021-04-27 11:58:47,774 - Model - INFO - Save model... ,epoch:76
+2021-04-27 11:58:47,774 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 11:58:47,822 - Model - INFO - Epoch 47 (78/250):
+2021-04-27 12:34:59,479 - Model - INFO - Train Instance Accuracy: 0.893939 ,mean_loss: 0.249725 
+2021-04-27 12:43:14,351 - Model - INFO - Test Instance Accuracy: 0.907160, Class Accuracy: 0.869421
+2021-04-27 12:43:14,351 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879687
+2021-04-27 12:43:14,351 - Model - INFO - Save model... ,epoch:77
+2021-04-27 12:43:14,351 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 12:43:14,399 - Model - INFO - Epoch 48 (79/250):
+2021-04-27 13:19:28,685 - Model - INFO - Train Instance Accuracy: 0.894450 ,mean_loss: 0.249299 
+2021-04-27 13:27:43,337 - Model - INFO - Test Instance Accuracy: 0.901901, Class Accuracy: 0.876921
+2021-04-27 13:27:43,337 - Model - INFO - Best Instance Accuracy: 0.914644, Class Accuracy: 0.879687
+2021-04-27 13:27:43,337 - Model - INFO - Save model... ,epoch:78
+2021-04-27 13:27:43,337 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 13:27:43,385 - Model - INFO - Epoch 49 (80/250):
+2021-04-27 14:04:03,402 - Model - INFO - Train Instance Accuracy: 0.894931 ,mean_loss: 0.260154 
+2021-04-27 14:12:20,998 - Model - INFO - Test Instance Accuracy: 0.915858, Class Accuracy: 0.886834
+2021-04-27 14:12:20,998 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.886834
+2021-04-27 14:12:20,998 - Model - INFO - Save model...
+2021-04-27 14:12:20,998 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-27 14:12:21,046 - Model - INFO - Save model... ,epoch:79
+2021-04-27 14:12:21,046 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 14:12:21,091 - Model - INFO - Epoch 50 (81/250):
+2021-04-27 14:48:32,446 - Model - INFO - Train Instance Accuracy: 0.895510 ,mean_loss: 0.241267 
+2021-04-27 14:56:50,747 - Model - INFO - Test Instance Accuracy: 0.907767, Class Accuracy: 0.884838
+2021-04-27 14:56:50,747 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.886834
+2021-04-27 14:56:50,747 - Model - INFO - Save model... ,epoch:80
+2021-04-27 14:56:50,747 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 14:56:50,795 - Model - INFO - Epoch 51 (82/250):
+2021-04-27 15:32:59,798 - Model - INFO - Train Instance Accuracy: 0.896131 ,mean_loss: 0.224539 
+2021-04-27 15:41:18,587 - Model - INFO - Test Instance Accuracy: 0.911408, Class Accuracy: 0.890339
+2021-04-27 15:41:18,588 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 15:41:18,588 - Model - INFO - Save model... ,epoch:81
+2021-04-27 15:41:18,588 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 15:41:18,635 - Model - INFO - Epoch 52 (83/250):
+2021-04-27 16:17:23,707 - Model - INFO - Train Instance Accuracy: 0.896774 ,mean_loss: 0.220048 
+2021-04-27 16:25:38,343 - Model - INFO - Test Instance Accuracy: 0.904531, Class Accuracy: 0.887746
+2021-04-27 16:25:38,343 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 16:25:38,343 - Model - INFO - Save model... ,epoch:82
+2021-04-27 16:25:38,343 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 16:25:38,391 - Model - INFO - Epoch 53 (84/250):
+2021-04-27 17:01:49,886 - Model - INFO - Train Instance Accuracy: 0.897284 ,mean_loss: 0.229629 
+2021-04-27 17:10:07,167 - Model - INFO - Test Instance Accuracy: 0.908778, Class Accuracy: 0.882486
+2021-04-27 17:10:07,167 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 17:10:07,167 - Model - INFO - Save model... ,epoch:83
+2021-04-27 17:10:07,167 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 17:10:07,215 - Model - INFO - Epoch 54 (85/250):
+2021-04-27 17:46:26,490 - Model - INFO - Train Instance Accuracy: 0.897913 ,mean_loss: 0.210547 
+2021-04-27 17:54:42,941 - Model - INFO - Test Instance Accuracy: 0.903924, Class Accuracy: 0.882468
+2021-04-27 17:54:42,941 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 17:54:42,941 - Model - INFO - Save model... ,epoch:84
+2021-04-27 17:54:42,942 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 17:54:42,989 - Model - INFO - Epoch 55 (86/250):
+2021-04-27 18:30:50,103 - Model - INFO - Train Instance Accuracy: 0.898490 ,mean_loss: 0.226253 
+2021-04-27 18:39:04,824 - Model - INFO - Test Instance Accuracy: 0.908172, Class Accuracy: 0.882095
+2021-04-27 18:39:04,824 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 18:39:04,824 - Model - INFO - Save model... ,epoch:85
+2021-04-27 18:39:04,824 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 18:39:04,872 - Model - INFO - Epoch 56 (87/250):
+2021-04-27 19:15:14,376 - Model - INFO - Train Instance Accuracy: 0.899018 ,mean_loss: 0.225610 
+2021-04-27 19:23:29,281 - Model - INFO - Test Instance Accuracy: 0.908374, Class Accuracy: 0.886606
+2021-04-27 19:23:29,282 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 19:23:29,282 - Model - INFO - Save model... ,epoch:86
+2021-04-27 19:23:29,282 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 19:23:29,329 - Model - INFO - Epoch 57 (88/250):
+2021-04-27 19:59:44,635 - Model - INFO - Train Instance Accuracy: 0.899607 ,mean_loss: 0.211539 
+2021-04-27 20:08:00,232 - Model - INFO - Test Instance Accuracy: 0.913633, Class Accuracy: 0.880755
+2021-04-27 20:08:00,232 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 20:08:00,232 - Model - INFO - Save model... ,epoch:87
+2021-04-27 20:08:00,232 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 20:08:00,280 - Model - INFO - Epoch 58 (89/250):
+2021-04-27 20:44:18,490 - Model - INFO - Train Instance Accuracy: 0.900139 ,mean_loss: 0.216965 
+2021-04-27 20:52:37,289 - Model - INFO - Test Instance Accuracy: 0.903924, Class Accuracy: 0.873759
+2021-04-27 20:52:37,290 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 20:52:37,290 - Model - INFO - Save model... ,epoch:88
+2021-04-27 20:52:37,290 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 20:52:37,338 - Model - INFO - Epoch 59 (90/250):
+2021-04-27 21:28:51,171 - Model - INFO - Train Instance Accuracy: 0.900636 ,mean_loss: 0.207932 
+2021-04-27 21:37:06,300 - Model - INFO - Test Instance Accuracy: 0.907565, Class Accuracy: 0.879213
+2021-04-27 21:37:06,300 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 21:37:06,300 - Model - INFO - Save model... ,epoch:89
+2021-04-27 21:37:06,300 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 21:37:06,348 - Model - INFO - Epoch 60 (91/250):
+2021-04-27 22:13:27,715 - Model - INFO - Train Instance Accuracy: 0.901147 ,mean_loss: 0.220561 
+2021-04-27 22:21:45,604 - Model - INFO - Test Instance Accuracy: 0.910599, Class Accuracy: 0.881045
+2021-04-27 22:21:45,605 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 22:21:45,605 - Model - INFO - Save model... ,epoch:90
+2021-04-27 22:21:45,605 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 22:21:45,652 - Model - INFO - Epoch 61 (92/250):
+2021-04-27 22:57:57,037 - Model - INFO - Train Instance Accuracy: 0.901646 ,mean_loss: 0.208435 
+2021-04-27 23:06:15,578 - Model - INFO - Test Instance Accuracy: 0.911610, Class Accuracy: 0.880862
+2021-04-27 23:06:15,578 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 23:06:15,579 - Model - INFO - Save model... ,epoch:91
+2021-04-27 23:06:15,579 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 23:06:15,727 - Model - INFO - Epoch 62 (93/250):
+2021-04-27 23:42:23,570 - Model - INFO - Train Instance Accuracy: 0.902176 ,mean_loss: 0.197048 
+2021-04-27 23:50:38,280 - Model - INFO - Test Instance Accuracy: 0.906756, Class Accuracy: 0.877529
+2021-04-27 23:50:38,280 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-27 23:50:38,280 - Model - INFO - Save model... ,epoch:92
+2021-04-27 23:50:38,280 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-27 23:50:38,327 - Model - INFO - Epoch 63 (94/250):
+2021-04-28 00:26:47,508 - Model - INFO - Train Instance Accuracy: 0.902675 ,mean_loss: 0.209377 
+2021-04-28 00:35:02,699 - Model - INFO - Test Instance Accuracy: 0.911003, Class Accuracy: 0.886490
+2021-04-28 00:35:02,699 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 00:35:02,699 - Model - INFO - Save model... ,epoch:93
+2021-04-28 00:35:02,699 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 00:35:02,747 - Model - INFO - Epoch 64 (95/250):
+2021-04-28 01:11:21,428 - Model - INFO - Train Instance Accuracy: 0.903132 ,mean_loss: 0.217256 
+2021-04-28 01:19:40,834 - Model - INFO - Test Instance Accuracy: 0.913633, Class Accuracy: 0.885350
+2021-04-28 01:19:40,835 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 01:19:40,835 - Model - INFO - Save model... ,epoch:94
+2021-04-28 01:19:40,835 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 01:19:40,882 - Model - INFO - Epoch 65 (96/250):
+2021-04-28 01:55:56,040 - Model - INFO - Train Instance Accuracy: 0.903574 ,mean_loss: 0.206023 
+2021-04-28 02:04:14,989 - Model - INFO - Test Instance Accuracy: 0.904531, Class Accuracy: 0.873851
+2021-04-28 02:04:14,989 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 02:04:14,989 - Model - INFO - Save model... ,epoch:95
+2021-04-28 02:04:14,989 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 02:04:15,037 - Model - INFO - Epoch 66 (97/250):
+2021-04-28 02:40:32,109 - Model - INFO - Train Instance Accuracy: 0.904097 ,mean_loss: 0.195637 
+2021-04-28 02:48:47,187 - Model - INFO - Test Instance Accuracy: 0.908981, Class Accuracy: 0.877862
+2021-04-28 02:48:47,187 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 02:48:47,187 - Model - INFO - Save model... ,epoch:96
+2021-04-28 02:48:47,187 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 02:48:47,235 - Model - INFO - Epoch 67 (98/250):
+2021-04-28 03:25:06,531 - Model - INFO - Train Instance Accuracy: 0.904512 ,mean_loss: 0.209501 
+2021-04-28 03:33:22,015 - Model - INFO - Test Instance Accuracy: 0.902508, Class Accuracy: 0.881531
+2021-04-28 03:33:22,016 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 03:33:22,016 - Model - INFO - Save model... ,epoch:97
+2021-04-28 03:33:22,016 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 03:33:22,063 - Model - INFO - Epoch 68 (99/250):
+2021-04-28 04:09:38,951 - Model - INFO - Train Instance Accuracy: 0.905007 ,mean_loss: 0.191781 
+2021-04-28 04:17:53,752 - Model - INFO - Test Instance Accuracy: 0.913026, Class Accuracy: 0.880862
+2021-04-28 04:17:53,752 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 04:17:53,752 - Model - INFO - Save model... ,epoch:98
+2021-04-28 04:17:53,752 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 04:17:53,800 - Model - INFO - Epoch 69 (100/250):
+2021-04-28 04:54:04,530 - Model - INFO - Train Instance Accuracy: 0.905384 ,mean_loss: 0.204858 
+2021-04-28 05:02:23,103 - Model - INFO - Test Instance Accuracy: 0.911003, Class Accuracy: 0.877378
+2021-04-28 05:02:23,103 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 05:02:23,103 - Model - INFO - Save model... ,epoch:99
+2021-04-28 05:02:23,103 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 05:02:23,151 - Model - INFO - Epoch 70 (101/250):
+2021-04-28 05:38:32,585 - Model - INFO - Train Instance Accuracy: 0.905836 ,mean_loss: 0.189141 
+2021-04-28 05:46:51,610 - Model - INFO - Test Instance Accuracy: 0.911812, Class Accuracy: 0.878157
+2021-04-28 05:46:51,610 - Model - INFO - Best Instance Accuracy: 0.915858, Class Accuracy: 0.890339
+2021-04-28 05:46:51,610 - Model - INFO - Save model... ,epoch:100
+2021-04-28 05:46:51,610 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 05:46:51,658 - Model - INFO - Epoch 71 (102/250):
+2021-04-28 06:23:03,087 - Model - INFO - Train Instance Accuracy: 0.906319 ,mean_loss: 0.190447 
+2021-04-28 06:31:21,948 - Model - INFO - Test Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 06:31:21,948 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 06:31:21,948 - Model - INFO - Save model...
+2021-04-28 06:31:21,948 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-28 06:31:21,995 - Model - INFO - Save model... ,epoch:101
+2021-04-28 06:31:21,995 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 06:31:22,041 - Model - INFO - Epoch 72 (103/250):
+2021-04-28 07:07:43,863 - Model - INFO - Train Instance Accuracy: 0.906798 ,mean_loss: 0.184913 
+2021-04-28 07:15:58,667 - Model - INFO - Test Instance Accuracy: 0.913228, Class Accuracy: 0.884363
+2021-04-28 07:15:58,667 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 07:15:58,667 - Model - INFO - Save model... ,epoch:102
+2021-04-28 07:15:58,667 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 07:15:58,715 - Model - INFO - Epoch 73 (104/250):
+2021-04-28 07:52:15,414 - Model - INFO - Train Instance Accuracy: 0.907244 ,mean_loss: 0.188562 
+2021-04-28 08:00:29,953 - Model - INFO - Test Instance Accuracy: 0.908981, Class Accuracy: 0.874873
+2021-04-28 08:00:29,953 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 08:00:29,953 - Model - INFO - Save model... ,epoch:103
+2021-04-28 08:00:29,954 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 08:00:30,003 - Model - INFO - Epoch 74 (105/250):
+2021-04-28 08:36:51,036 - Model - INFO - Train Instance Accuracy: 0.907669 ,mean_loss: 0.185933 
+2021-04-28 08:45:06,739 - Model - INFO - Test Instance Accuracy: 0.913026, Class Accuracy: 0.885726
+2021-04-28 08:45:06,740 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 08:45:06,740 - Model - INFO - Save model... ,epoch:104
+2021-04-28 08:45:06,740 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 08:45:06,930 - Model - INFO - Epoch 75 (106/250):
+2021-04-28 09:21:20,979 - Model - INFO - Train Instance Accuracy: 0.908134 ,mean_loss: 0.175150 
+2021-04-28 09:29:35,243 - Model - INFO - Test Instance Accuracy: 0.911003, Class Accuracy: 0.884771
+2021-04-28 09:29:35,243 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 09:29:35,243 - Model - INFO - Save model... ,epoch:105
+2021-04-28 09:29:35,243 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 09:29:35,291 - Model - INFO - Epoch 76 (107/250):
+2021-04-28 10:05:50,720 - Model - INFO - Train Instance Accuracy: 0.908538 ,mean_loss: 0.188559 
+2021-04-28 10:14:08,523 - Model - INFO - Test Instance Accuracy: 0.913228, Class Accuracy: 0.884057
+2021-04-28 10:14:08,523 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 10:14:08,523 - Model - INFO - Save model... ,epoch:106
+2021-04-28 10:14:08,523 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 10:14:08,572 - Model - INFO - Epoch 77 (108/250):
+2021-04-28 10:50:17,817 - Model - INFO - Train Instance Accuracy: 0.908993 ,mean_loss: 0.171895 
+2021-04-28 10:58:34,847 - Model - INFO - Test Instance Accuracy: 0.906351, Class Accuracy: 0.883845
+2021-04-28 10:58:34,847 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 10:58:34,847 - Model - INFO - Save model... ,epoch:107
+2021-04-28 10:58:34,847 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 10:58:34,895 - Model - INFO - Epoch 78 (109/250):
+2021-04-28 11:34:44,977 - Model - INFO - Train Instance Accuracy: 0.909435 ,mean_loss: 0.173841 
+2021-04-28 11:42:59,388 - Model - INFO - Test Instance Accuracy: 0.912824, Class Accuracy: 0.876667
+2021-04-28 11:42:59,388 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 11:42:59,388 - Model - INFO - Save model... ,epoch:108
+2021-04-28 11:42:59,388 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 11:42:59,435 - Model - INFO - Epoch 79 (110/250):
+2021-04-28 12:19:10,483 - Model - INFO - Train Instance Accuracy: 0.909914 ,mean_loss: 0.162291 
+2021-04-28 12:27:24,527 - Model - INFO - Test Instance Accuracy: 0.909385, Class Accuracy: 0.880726
+2021-04-28 12:27:24,527 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 12:27:24,527 - Model - INFO - Save model... ,epoch:109
+2021-04-28 12:27:24,528 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 12:27:24,575 - Model - INFO - Epoch 80 (111/250):
+2021-04-28 13:03:33,420 - Model - INFO - Train Instance Accuracy: 0.910341 ,mean_loss: 0.172181 
+2021-04-28 13:11:48,998 - Model - INFO - Test Instance Accuracy: 0.910801, Class Accuracy: 0.885790
+2021-04-28 13:11:48,998 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 13:11:48,998 - Model - INFO - Save model... ,epoch:110
+2021-04-28 13:11:48,998 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 13:11:49,046 - Model - INFO - Epoch 81 (112/250):
+2021-04-28 13:47:58,562 - Model - INFO - Train Instance Accuracy: 0.910731 ,mean_loss: 0.179724 
+2021-04-28 13:56:16,931 - Model - INFO - Test Instance Accuracy: 0.910194, Class Accuracy: 0.890767
+2021-04-28 13:56:16,931 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 13:56:16,931 - Model - INFO - Save model... ,epoch:111
+2021-04-28 13:56:16,931 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 13:56:16,979 - Model - INFO - Epoch 82 (113/250):
+2021-04-28 14:32:33,053 - Model - INFO - Train Instance Accuracy: 0.911160 ,mean_loss: 0.159531 
+2021-04-28 14:40:48,777 - Model - INFO - Test Instance Accuracy: 0.912217, Class Accuracy: 0.889699
+2021-04-28 14:40:48,777 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 14:40:48,778 - Model - INFO - Save model... ,epoch:112
+2021-04-28 14:40:48,778 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 14:40:48,826 - Model - INFO - Epoch 83 (114/250):
+2021-04-28 15:17:09,569 - Model - INFO - Train Instance Accuracy: 0.911537 ,mean_loss: 0.176050 
+2021-04-28 15:25:27,805 - Model - INFO - Test Instance Accuracy: 0.913633, Class Accuracy: 0.880689
+2021-04-28 15:25:27,805 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 15:25:27,805 - Model - INFO - Save model... ,epoch:113
+2021-04-28 15:25:27,805 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 15:25:27,852 - Model - INFO - Epoch 84 (115/250):
+2021-04-28 16:01:35,788 - Model - INFO - Train Instance Accuracy: 0.911981 ,mean_loss: 0.160590 
+2021-04-28 16:09:50,730 - Model - INFO - Test Instance Accuracy: 0.916464, Class Accuracy: 0.888003
+2021-04-28 16:09:50,731 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 16:09:50,731 - Model - INFO - Save model... ,epoch:114
+2021-04-28 16:09:50,731 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 16:09:50,778 - Model - INFO - Epoch 85 (116/250):
+2021-04-28 16:45:54,742 - Model - INFO - Train Instance Accuracy: 0.912370 ,mean_loss: 0.167460 
+2021-04-28 16:54:08,653 - Model - INFO - Test Instance Accuracy: 0.913228, Class Accuracy: 0.886021
+2021-04-28 16:54:08,653 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 16:54:08,653 - Model - INFO - Save model... ,epoch:115
+2021-04-28 16:54:08,654 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 16:54:08,701 - Model - INFO - Epoch 86 (117/250):
+2021-04-28 17:30:16,672 - Model - INFO - Train Instance Accuracy: 0.912782 ,mean_loss: 0.161398 
+2021-04-28 17:38:30,446 - Model - INFO - Test Instance Accuracy: 0.910396, Class Accuracy: 0.881062
+2021-04-28 17:38:30,446 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 17:38:30,446 - Model - INFO - Save model... ,epoch:116
+2021-04-28 17:38:30,446 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 17:38:30,493 - Model - INFO - Epoch 87 (118/250):
+2021-04-28 18:14:34,046 - Model - INFO - Train Instance Accuracy: 0.913142 ,mean_loss: 0.170476 
+2021-04-28 18:22:48,183 - Model - INFO - Test Instance Accuracy: 0.912015, Class Accuracy: 0.882746
+2021-04-28 18:22:48,184 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 18:22:48,184 - Model - INFO - Save model... ,epoch:117
+2021-04-28 18:22:48,184 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 18:22:48,231 - Model - INFO - Epoch 88 (119/250):
+2021-04-28 18:59:03,988 - Model - INFO - Train Instance Accuracy: 0.913512 ,mean_loss: 0.171884 
+2021-04-28 19:07:20,527 - Model - INFO - Test Instance Accuracy: 0.914442, Class Accuracy: 0.888857
+2021-04-28 19:07:20,527 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 19:07:20,527 - Model - INFO - Save model... ,epoch:118
+2021-04-28 19:07:20,527 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 19:07:20,576 - Model - INFO - Epoch 89 (120/250):
+2021-04-28 19:43:30,446 - Model - INFO - Train Instance Accuracy: 0.913853 ,mean_loss: 0.171636 
+2021-04-28 19:51:49,140 - Model - INFO - Test Instance Accuracy: 0.915453, Class Accuracy: 0.889418
+2021-04-28 19:51:49,140 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 19:51:49,140 - Model - INFO - Save model... ,epoch:119
+2021-04-28 19:51:49,140 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 19:51:49,188 - Model - INFO - Epoch 90 (121/250):
+2021-04-28 20:27:56,636 - Model - INFO - Train Instance Accuracy: 0.914227 ,mean_loss: 0.155998 
+2021-04-28 20:36:11,116 - Model - INFO - Test Instance Accuracy: 0.910396, Class Accuracy: 0.875807
+2021-04-28 20:36:11,116 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 20:36:11,116 - Model - INFO - Save model... ,epoch:120
+2021-04-28 20:36:11,116 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 20:36:11,163 - Model - INFO - Epoch 91 (122/250):
+2021-04-28 21:12:19,914 - Model - INFO - Train Instance Accuracy: 0.914643 ,mean_loss: 0.153778 
+2021-04-28 21:20:38,149 - Model - INFO - Test Instance Accuracy: 0.917071, Class Accuracy: 0.892387
+2021-04-28 21:20:38,150 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 21:20:38,150 - Model - INFO - Save model... ,epoch:121
+2021-04-28 21:20:38,150 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 21:20:38,197 - Model - INFO - Epoch 92 (123/250):
+2021-04-28 21:56:43,680 - Model - INFO - Train Instance Accuracy: 0.915069 ,mean_loss: 0.148588 
+2021-04-28 22:05:00,268 - Model - INFO - Test Instance Accuracy: 0.917476, Class Accuracy: 0.885023
+2021-04-28 22:05:00,268 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 22:05:00,268 - Model - INFO - Save model... ,epoch:122
+2021-04-28 22:05:00,268 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 22:05:00,316 - Model - INFO - Epoch 93 (124/250):
+2021-04-28 22:41:13,847 - Model - INFO - Train Instance Accuracy: 0.915421 ,mean_loss: 0.149011 
+2021-04-28 22:49:28,185 - Model - INFO - Test Instance Accuracy: 0.916262, Class Accuracy: 0.882830
+2021-04-28 22:49:28,185 - Model - INFO - Best Instance Accuracy: 0.917678, Class Accuracy: 0.895909
+2021-04-28 22:49:28,185 - Model - INFO - Save model... ,epoch:123
+2021-04-28 22:49:28,185 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 22:49:28,232 - Model - INFO - Epoch 94 (125/250):
+2021-04-28 23:25:49,865 - Model - INFO - Train Instance Accuracy: 0.915845 ,mean_loss: 0.141485 
+2021-04-28 23:34:06,725 - Model - INFO - Test Instance Accuracy: 0.923948, Class Accuracy: 0.896244
+2021-04-28 23:34:06,725 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896244
+2021-04-28 23:34:06,725 - Model - INFO - Save model...
+2021-04-28 23:34:06,725 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-28 23:34:06,773 - Model - INFO - Save model... ,epoch:124
+2021-04-28 23:34:06,773 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-28 23:34:06,818 - Model - INFO - Epoch 95 (126/250):
+2021-04-29 00:10:18,810 - Model - INFO - Train Instance Accuracy: 0.916229 ,mean_loss: 0.148876 
+2021-04-29 00:18:40,251 - Model - INFO - Test Instance Accuracy: 0.910599, Class Accuracy: 0.884702
+2021-04-29 00:18:40,251 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896244
+2021-04-29 00:18:40,251 - Model - INFO - Save model... ,epoch:125
+2021-04-29 00:18:40,251 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 00:18:40,298 - Model - INFO - Epoch 96 (127/250):
+2021-04-29 00:54:49,220 - Model - INFO - Train Instance Accuracy: 0.916611 ,mean_loss: 0.147322 
+2021-04-29 01:03:06,204 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.896270
+2021-04-29 01:03:06,205 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 01:03:06,205 - Model - INFO - Save model... ,epoch:126
+2021-04-29 01:03:06,205 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 01:03:06,252 - Model - INFO - Epoch 97 (128/250):
+2021-04-29 01:39:25,309 - Model - INFO - Train Instance Accuracy: 0.916974 ,mean_loss: 0.143079 
+2021-04-29 01:47:42,222 - Model - INFO - Test Instance Accuracy: 0.920307, Class Accuracy: 0.890828
+2021-04-29 01:47:42,222 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 01:47:42,222 - Model - INFO - Save model... ,epoch:127
+2021-04-29 01:47:42,222 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 01:47:42,269 - Model - INFO - Epoch 98 (129/250):
+2021-04-29 02:23:53,308 - Model - INFO - Train Instance Accuracy: 0.917343 ,mean_loss: 0.153066 
+2021-04-29 02:32:11,271 - Model - INFO - Test Instance Accuracy: 0.911206, Class Accuracy: 0.884656
+2021-04-29 02:32:11,271 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 02:32:11,271 - Model - INFO - Save model... ,epoch:128
+2021-04-29 02:32:11,272 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 02:32:11,319 - Model - INFO - Epoch 99 (130/250):
+2021-04-29 03:08:23,763 - Model - INFO - Train Instance Accuracy: 0.917707 ,mean_loss: 0.147899 
+2021-04-29 03:16:46,510 - Model - INFO - Test Instance Accuracy: 0.918487, Class Accuracy: 0.888446
+2021-04-29 03:16:46,510 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 03:16:46,510 - Model - INFO - Save model... ,epoch:129
+2021-04-29 03:16:46,510 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 03:16:46,558 - Model - INFO - Epoch 100 (131/250):
+2021-04-29 03:52:55,599 - Model - INFO - Train Instance Accuracy: 0.918078 ,mean_loss: 0.131683 
+2021-04-29 04:01:11,442 - Model - INFO - Test Instance Accuracy: 0.918285, Class Accuracy: 0.894769
+2021-04-29 04:01:11,442 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 04:01:11,442 - Model - INFO - Save model... ,epoch:130
+2021-04-29 04:01:11,442 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 04:01:11,489 - Model - INFO - Epoch 101 (132/250):
+2021-04-29 04:37:18,832 - Model - INFO - Train Instance Accuracy: 0.918418 ,mean_loss: 0.136543 
+2021-04-29 04:45:39,375 - Model - INFO - Test Instance Accuracy: 0.909790, Class Accuracy: 0.879884
+2021-04-29 04:45:39,375 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 04:45:39,376 - Model - INFO - Save model... ,epoch:131
+2021-04-29 04:45:39,376 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 04:45:39,423 - Model - INFO - Epoch 102 (133/250):
+2021-04-29 05:21:50,593 - Model - INFO - Train Instance Accuracy: 0.918729 ,mean_loss: 0.148927 
+2021-04-29 05:30:05,809 - Model - INFO - Test Instance Accuracy: 0.915655, Class Accuracy: 0.893290
+2021-04-29 05:30:05,809 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 05:30:05,809 - Model - INFO - Save model... ,epoch:132
+2021-04-29 05:30:05,809 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 05:30:05,857 - Model - INFO - Epoch 103 (134/250):
+2021-04-29 06:06:19,445 - Model - INFO - Train Instance Accuracy: 0.919051 ,mean_loss: 0.143611 
+2021-04-29 06:14:34,327 - Model - INFO - Test Instance Accuracy: 0.909790, Class Accuracy: 0.881415
+2021-04-29 06:14:34,327 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 06:14:34,327 - Model - INFO - Save model... ,epoch:133
+2021-04-29 06:14:34,327 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 06:14:34,374 - Model - INFO - Epoch 104 (135/250):
+2021-04-29 06:50:44,143 - Model - INFO - Train Instance Accuracy: 0.919353 ,mean_loss: 0.147654 
+2021-04-29 06:59:01,432 - Model - INFO - Test Instance Accuracy: 0.914442, Class Accuracy: 0.887425
+2021-04-29 06:59:01,432 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 06:59:01,432 - Model - INFO - Save model... ,epoch:134
+2021-04-29 06:59:01,432 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 06:59:01,479 - Model - INFO - Epoch 105 (136/250):
+2021-04-29 07:35:12,535 - Model - INFO - Train Instance Accuracy: 0.919684 ,mean_loss: 0.146130 
+2021-04-29 07:43:27,803 - Model - INFO - Test Instance Accuracy: 0.913835, Class Accuracy: 0.883828
+2021-04-29 07:43:27,804 - Model - INFO - Best Instance Accuracy: 0.923948, Class Accuracy: 0.896270
+2021-04-29 07:43:27,804 - Model - INFO - Save model... ,epoch:135
+2021-04-29 07:43:27,804 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 07:43:27,851 - Model - INFO - Epoch 106 (137/250):
+2021-04-29 08:19:47,597 - Model - INFO - Train Instance Accuracy: 0.920015 ,mean_loss: 0.138050 
+2021-04-29 08:28:02,665 - Model - INFO - Test Instance Accuracy: 0.924353, Class Accuracy: 0.893348
+2021-04-29 08:28:02,665 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 08:28:02,665 - Model - INFO - Save model...
+2021-04-29 08:28:02,665 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/best_model.pth
+2021-04-29 08:28:02,713 - Model - INFO - Save model... ,epoch:136
+2021-04-29 08:28:02,713 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 08:28:02,758 - Model - INFO - Epoch 107 (138/250):
+2021-04-29 09:04:09,120 - Model - INFO - Train Instance Accuracy: 0.920352 ,mean_loss: 0.134397 
+2021-04-29 09:12:27,967 - Model - INFO - Test Instance Accuracy: 0.913026, Class Accuracy: 0.879994
+2021-04-29 09:12:27,967 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 09:12:27,967 - Model - INFO - Save model... ,epoch:137
+2021-04-29 09:12:27,967 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 09:12:28,015 - Model - INFO - Epoch 108 (139/250):
+2021-04-29 09:48:50,674 - Model - INFO - Train Instance Accuracy: 0.920667 ,mean_loss: 0.138513 
+2021-04-29 09:57:08,638 - Model - INFO - Test Instance Accuracy: 0.916262, Class Accuracy: 0.890790
+2021-04-29 09:57:08,638 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 09:57:08,638 - Model - INFO - Save model... ,epoch:138
+2021-04-29 09:57:08,638 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 09:57:08,686 - Model - INFO - Epoch 109 (140/250):
+2021-04-29 10:33:23,498 - Model - INFO - Train Instance Accuracy: 0.920983 ,mean_loss: 0.136080 
+2021-04-29 10:41:37,987 - Model - INFO - Test Instance Accuracy: 0.916262, Class Accuracy: 0.889175
+2021-04-29 10:41:37,987 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 10:41:37,987 - Model - INFO - Save model... ,epoch:139
+2021-04-29 10:41:37,987 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 10:41:38,034 - Model - INFO - Epoch 110 (141/250):
+2021-04-29 11:17:51,960 - Model - INFO - Train Instance Accuracy: 0.921307 ,mean_loss: 0.129463 
+2021-04-29 11:26:08,741 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.887801
+2021-04-29 11:26:08,741 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 11:26:08,741 - Model - INFO - Save model... ,epoch:140
+2021-04-29 11:26:08,741 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 11:26:08,789 - Model - INFO - Epoch 111 (142/250):
+2021-04-29 12:02:24,305 - Model - INFO - Train Instance Accuracy: 0.921641 ,mean_loss: 0.127126 
+2021-04-29 12:10:43,977 - Model - INFO - Test Instance Accuracy: 0.917071, Class Accuracy: 0.885903
+2021-04-29 12:10:43,977 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 12:10:43,977 - Model - INFO - Save model... ,epoch:141
+2021-04-29 12:10:43,977 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 12:10:44,025 - Model - INFO - Epoch 112 (143/250):
+2021-04-29 12:47:00,541 - Model - INFO - Train Instance Accuracy: 0.921963 ,mean_loss: 0.124417 
+2021-04-29 12:55:14,503 - Model - INFO - Test Instance Accuracy: 0.910599, Class Accuracy: 0.889612
+2021-04-29 12:55:14,503 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 12:55:14,503 - Model - INFO - Save model... ,epoch:142
+2021-04-29 12:55:14,503 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 12:55:14,551 - Model - INFO - Epoch 113 (144/250):
+2021-04-29 13:31:31,058 - Model - INFO - Train Instance Accuracy: 0.922279 ,mean_loss: 0.129057 
+2021-04-29 13:39:49,451 - Model - INFO - Test Instance Accuracy: 0.919903, Class Accuracy: 0.885159
+2021-04-29 13:39:49,451 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 13:39:49,451 - Model - INFO - Save model... ,epoch:143
+2021-04-29 13:39:49,451 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 13:39:49,499 - Model - INFO - Epoch 114 (145/250):
+2021-04-29 14:16:07,717 - Model - INFO - Train Instance Accuracy: 0.922583 ,mean_loss: 0.124440 
+2021-04-29 14:24:22,338 - Model - INFO - Test Instance Accuracy: 0.908374, Class Accuracy: 0.878701
+2021-04-29 14:24:22,338 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 14:24:22,338 - Model - INFO - Save model... ,epoch:144
+2021-04-29 14:24:22,338 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 14:24:22,385 - Model - INFO - Epoch 115 (146/250):
+2021-04-29 15:00:36,782 - Model - INFO - Train Instance Accuracy: 0.922884 ,mean_loss: 0.131903 
+2021-04-29 15:08:52,597 - Model - INFO - Test Instance Accuracy: 0.917476, Class Accuracy: 0.892245
+2021-04-29 15:08:52,597 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 15:08:52,597 - Model - INFO - Save model... ,epoch:145
+2021-04-29 15:08:52,597 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 15:08:52,645 - Model - INFO - Epoch 116 (147/250):
+2021-04-29 15:45:07,642 - Model - INFO - Train Instance Accuracy: 0.923166 ,mean_loss: 0.130072 
+2021-04-29 15:53:23,799 - Model - INFO - Test Instance Accuracy: 0.915453, Class Accuracy: 0.885553
+2021-04-29 15:53:23,799 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 15:53:23,799 - Model - INFO - Save model... ,epoch:146
+2021-04-29 15:53:23,799 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 15:53:23,847 - Model - INFO - Epoch 117 (148/250):
+2021-04-29 16:29:44,264 - Model - INFO - Train Instance Accuracy: 0.923483 ,mean_loss: 0.117088 
+2021-04-29 16:37:59,959 - Model - INFO - Test Instance Accuracy: 0.912621, Class Accuracy: 0.889225
+2021-04-29 16:37:59,959 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 16:37:59,959 - Model - INFO - Save model... ,epoch:147
+2021-04-29 16:37:59,960 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 16:38:00,008 - Model - INFO - Epoch 118 (149/250):
+2021-04-29 17:14:16,171 - Model - INFO - Train Instance Accuracy: 0.923782 ,mean_loss: 0.119510 
+2021-04-29 17:22:34,840 - Model - INFO - Test Instance Accuracy: 0.917880, Class Accuracy: 0.891884
+2021-04-29 17:22:34,840 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 17:22:34,840 - Model - INFO - Save model... ,epoch:148
+2021-04-29 17:22:34,840 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 17:22:34,887 - Model - INFO - Epoch 119 (150/250):
+2021-04-29 17:58:50,384 - Model - INFO - Train Instance Accuracy: 0.924074 ,mean_loss: 0.122634 
+2021-04-29 18:07:06,903 - Model - INFO - Test Instance Accuracy: 0.908576, Class Accuracy: 0.889508
+2021-04-29 18:07:06,904 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 18:07:06,904 - Model - INFO - Save model... ,epoch:149
+2021-04-29 18:07:06,904 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 18:07:06,951 - Model - INFO - Epoch 120 (151/250):
+2021-04-29 18:43:14,247 - Model - INFO - Train Instance Accuracy: 0.924343 ,mean_loss: 0.132488 
+2021-04-29 18:51:29,886 - Model - INFO - Test Instance Accuracy: 0.913633, Class Accuracy: 0.886100
+2021-04-29 18:51:29,886 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 18:51:29,886 - Model - INFO - Save model... ,epoch:150
+2021-04-29 18:51:29,886 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 18:51:29,933 - Model - INFO - Epoch 121 (152/250):
+2021-04-29 19:27:41,571 - Model - INFO - Train Instance Accuracy: 0.924620 ,mean_loss: 0.123910 
+2021-04-29 19:35:55,871 - Model - INFO - Test Instance Accuracy: 0.909587, Class Accuracy: 0.885205
+2021-04-29 19:35:55,871 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 19:35:55,871 - Model - INFO - Save model... ,epoch:151
+2021-04-29 19:35:55,871 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 19:35:55,919 - Model - INFO - Epoch 122 (153/250):
+2021-04-29 20:12:06,928 - Model - INFO - Train Instance Accuracy: 0.924909 ,mean_loss: 0.120336 
+2021-04-29 20:20:21,670 - Model - INFO - Test Instance Accuracy: 0.913835, Class Accuracy: 0.895515
+2021-04-29 20:20:21,671 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 20:20:21,671 - Model - INFO - Save model... ,epoch:152
+2021-04-29 20:20:21,671 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 20:20:21,719 - Model - INFO - Epoch 123 (154/250):
+2021-04-29 20:56:29,073 - Model - INFO - Train Instance Accuracy: 0.925195 ,mean_loss: 0.123529 
+2021-04-29 21:04:43,549 - Model - INFO - Test Instance Accuracy: 0.917880, Class Accuracy: 0.889928
+2021-04-29 21:04:43,549 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 21:04:43,549 - Model - INFO - Save model... ,epoch:153
+2021-04-29 21:04:43,549 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 21:04:43,597 - Model - INFO - Epoch 124 (155/250):
+2021-04-29 21:40:48,538 - Model - INFO - Train Instance Accuracy: 0.925492 ,mean_loss: 0.118291 
+2021-04-29 21:49:03,715 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.882526
+2021-04-29 21:49:03,715 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 21:49:03,715 - Model - INFO - Save model... ,epoch:154
+2021-04-29 21:49:03,715 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 21:49:03,762 - Model - INFO - Epoch 125 (156/250):
+2021-04-29 22:25:21,439 - Model - INFO - Train Instance Accuracy: 0.925799 ,mean_loss: 0.111538 
+2021-04-29 22:33:39,395 - Model - INFO - Test Instance Accuracy: 0.910801, Class Accuracy: 0.894358
+2021-04-29 22:33:39,395 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 22:33:39,395 - Model - INFO - Save model... ,epoch:155
+2021-04-29 22:33:39,395 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 22:33:39,442 - Model - INFO - Epoch 126 (157/250):
+2021-04-29 23:09:50,307 - Model - INFO - Train Instance Accuracy: 0.926071 ,mean_loss: 0.122060 
+2021-04-29 23:18:06,097 - Model - INFO - Test Instance Accuracy: 0.910599, Class Accuracy: 0.885749
+2021-04-29 23:18:06,097 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-29 23:18:06,097 - Model - INFO - Save model... ,epoch:156
+2021-04-29 23:18:06,097 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-29 23:18:06,145 - Model - INFO - Epoch 127 (158/250):
+2021-04-29 23:54:17,968 - Model - INFO - Train Instance Accuracy: 0.926353 ,mean_loss: 0.120908 
+2021-04-30 00:02:34,789 - Model - INFO - Test Instance Accuracy: 0.913228, Class Accuracy: 0.887135
+2021-04-30 00:02:34,789 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 00:02:34,789 - Model - INFO - Save model... ,epoch:157
+2021-04-30 00:02:34,789 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 00:02:34,837 - Model - INFO - Epoch 128 (159/250):
+2021-04-30 00:38:43,020 - Model - INFO - Train Instance Accuracy: 0.926634 ,mean_loss: 0.114534 
+2021-04-30 00:46:56,837 - Model - INFO - Test Instance Accuracy: 0.909790, Class Accuracy: 0.888828
+2021-04-30 00:46:56,837 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 00:46:56,837 - Model - INFO - Save model... ,epoch:158
+2021-04-30 00:46:56,837 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 00:46:56,885 - Model - INFO - Epoch 129 (160/250):
+2021-04-30 01:23:14,446 - Model - INFO - Train Instance Accuracy: 0.926933 ,mean_loss: 0.108223 
+2021-04-30 01:31:33,334 - Model - INFO - Test Instance Accuracy: 0.910599, Class Accuracy: 0.888764
+2021-04-30 01:31:33,334 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 01:31:33,334 - Model - INFO - Save model... ,epoch:159
+2021-04-30 01:31:33,334 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 01:31:33,382 - Model - INFO - Epoch 130 (161/250):
+2021-04-30 02:07:51,410 - Model - INFO - Train Instance Accuracy: 0.927217 ,mean_loss: 0.111041 
+2021-04-30 02:16:07,545 - Model - INFO - Test Instance Accuracy: 0.915251, Class Accuracy: 0.890775
+2021-04-30 02:16:07,546 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 02:16:07,546 - Model - INFO - Save model... ,epoch:160
+2021-04-30 02:16:07,546 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 02:16:07,593 - Model - INFO - Epoch 131 (162/250):
+2021-04-30 02:52:15,200 - Model - INFO - Train Instance Accuracy: 0.927498 ,mean_loss: 0.105947 
+2021-04-30 03:00:33,088 - Model - INFO - Test Instance Accuracy: 0.916667, Class Accuracy: 0.884427
+2021-04-30 03:00:33,088 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 03:00:33,088 - Model - INFO - Save model... ,epoch:161
+2021-04-30 03:00:33,088 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 03:00:33,136 - Model - INFO - Epoch 132 (163/250):
+2021-04-30 03:36:46,588 - Model - INFO - Train Instance Accuracy: 0.927760 ,mean_loss: 0.111255 
+2021-04-30 03:45:01,336 - Model - INFO - Test Instance Accuracy: 0.912015, Class Accuracy: 0.891178
+2021-04-30 03:45:01,336 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 03:45:01,336 - Model - INFO - Save model... ,epoch:162
+2021-04-30 03:45:01,336 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 03:45:01,384 - Model - INFO - Epoch 133 (164/250):
+2021-04-30 04:21:10,311 - Model - INFO - Train Instance Accuracy: 0.928030 ,mean_loss: 0.109484 
+2021-04-30 04:29:25,796 - Model - INFO - Test Instance Accuracy: 0.910599, Class Accuracy: 0.888614
+2021-04-30 04:29:25,796 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 04:29:25,796 - Model - INFO - Save model... ,epoch:163
+2021-04-30 04:29:25,796 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 04:29:25,844 - Model - INFO - Epoch 134 (165/250):
+2021-04-30 05:05:38,944 - Model - INFO - Train Instance Accuracy: 0.928279 ,mean_loss: 0.110975 
+2021-04-30 05:13:56,644 - Model - INFO - Test Instance Accuracy: 0.912217, Class Accuracy: 0.890964
+2021-04-30 05:13:56,644 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 05:13:56,644 - Model - INFO - Save model... ,epoch:164
+2021-04-30 05:13:56,644 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 05:13:56,691 - Model - INFO - Epoch 135 (166/250):
+2021-04-30 05:50:04,456 - Model - INFO - Train Instance Accuracy: 0.928554 ,mean_loss: 0.104840 
+2021-04-30 05:58:22,984 - Model - INFO - Test Instance Accuracy: 0.913835, Class Accuracy: 0.889384
+2021-04-30 05:58:22,984 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 05:58:22,984 - Model - INFO - Save model... ,epoch:165
+2021-04-30 05:58:22,984 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 05:58:23,031 - Model - INFO - Epoch 136 (167/250):
+2021-04-30 06:34:38,496 - Model - INFO - Train Instance Accuracy: 0.928810 ,mean_loss: 0.108563 
+2021-04-30 06:42:52,946 - Model - INFO - Test Instance Accuracy: 0.907969, Class Accuracy: 0.883521
+2021-04-30 06:42:52,946 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 06:42:52,946 - Model - INFO - Save model... ,epoch:166
+2021-04-30 06:42:52,946 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 06:42:52,994 - Model - INFO - Epoch 137 (168/250):
+2021-04-30 07:18:58,825 - Model - INFO - Train Instance Accuracy: 0.929068 ,mean_loss: 0.111199 
+2021-04-30 07:27:16,275 - Model - INFO - Test Instance Accuracy: 0.912621, Class Accuracy: 0.890796
+2021-04-30 07:27:16,275 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 07:27:16,275 - Model - INFO - Save model... ,epoch:167
+2021-04-30 07:27:16,275 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 07:27:16,323 - Model - INFO - Epoch 138 (169/250):
+2021-04-30 08:03:34,388 - Model - INFO - Train Instance Accuracy: 0.929331 ,mean_loss: 0.102239 
+2021-04-30 08:11:50,561 - Model - INFO - Test Instance Accuracy: 0.909385, Class Accuracy: 0.879716
+2021-04-30 08:11:50,561 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 08:11:50,562 - Model - INFO - Save model... ,epoch:168
+2021-04-30 08:11:50,562 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 08:11:50,609 - Model - INFO - Epoch 139 (170/250):
+2021-04-30 08:48:01,087 - Model - INFO - Train Instance Accuracy: 0.929571 ,mean_loss: 0.116208 
+2021-04-30 08:56:18,322 - Model - INFO - Test Instance Accuracy: 0.913835, Class Accuracy: 0.888330
+2021-04-30 08:56:18,322 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 08:56:18,322 - Model - INFO - Save model... ,epoch:169
+2021-04-30 08:56:18,322 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 08:56:18,370 - Model - INFO - Epoch 140 (171/250):
+2021-04-30 09:32:27,898 - Model - INFO - Train Instance Accuracy: 0.929816 ,mean_loss: 0.108552 
+2021-04-30 09:40:46,401 - Model - INFO - Test Instance Accuracy: 0.917071, Class Accuracy: 0.884094
+2021-04-30 09:40:46,401 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896270
+2021-04-30 09:40:46,401 - Model - INFO - Save model... ,epoch:170
+2021-04-30 09:40:46,401 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 09:40:46,463 - Model - INFO - Epoch 141 (172/250):
+2021-04-30 10:17:00,752 - Model - INFO - Train Instance Accuracy: 0.930049 ,mean_loss: 0.110046 
+2021-04-30 10:25:16,844 - Model - INFO - Test Instance Accuracy: 0.914239, Class Accuracy: 0.896748
+2021-04-30 10:25:16,845 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 10:25:16,845 - Model - INFO - Save model... ,epoch:171
+2021-04-30 10:25:16,845 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 10:25:16,892 - Model - INFO - Epoch 142 (173/250):
+2021-04-30 11:01:26,607 - Model - INFO - Train Instance Accuracy: 0.930302 ,mean_loss: 0.109249 
+2021-04-30 11:09:45,308 - Model - INFO - Test Instance Accuracy: 0.908981, Class Accuracy: 0.890793
+2021-04-30 11:09:45,308 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 11:09:45,308 - Model - INFO - Save model... ,epoch:172
+2021-04-30 11:09:45,309 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 11:09:45,356 - Model - INFO - Epoch 143 (174/250):
+2021-04-30 11:45:53,194 - Model - INFO - Train Instance Accuracy: 0.930534 ,mean_loss: 0.108475 
+2021-04-30 11:54:07,807 - Model - INFO - Test Instance Accuracy: 0.915453, Class Accuracy: 0.890353
+2021-04-30 11:54:07,807 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 11:54:07,807 - Model - INFO - Save model... ,epoch:173
+2021-04-30 11:54:07,807 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 11:54:07,855 - Model - INFO - Epoch 144 (175/250):
+2021-04-30 12:30:21,474 - Model - INFO - Train Instance Accuracy: 0.930779 ,mean_loss: 0.105198 
+2021-04-30 12:38:40,416 - Model - INFO - Test Instance Accuracy: 0.912621, Class Accuracy: 0.892575
+2021-04-30 12:38:40,416 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 12:38:40,416 - Model - INFO - Save model... ,epoch:174
+2021-04-30 12:38:40,416 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 12:38:40,464 - Model - INFO - Epoch 145 (176/250):
+2021-04-30 13:14:46,608 - Model - INFO - Train Instance Accuracy: 0.931030 ,mean_loss: 0.102532 
+2021-04-30 13:23:06,647 - Model - INFO - Test Instance Accuracy: 0.909385, Class Accuracy: 0.884606
+2021-04-30 13:23:06,647 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 13:23:06,647 - Model - INFO - Save model... ,epoch:175
+2021-04-30 13:23:06,647 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 13:23:06,695 - Model - INFO - Epoch 146 (177/250):
+2021-04-30 13:59:12,341 - Model - INFO - Train Instance Accuracy: 0.931254 ,mean_loss: 0.106874 
+2021-04-30 14:07:26,890 - Model - INFO - Test Instance Accuracy: 0.915858, Class Accuracy: 0.890153
+2021-04-30 14:07:26,890 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 14:07:26,890 - Model - INFO - Save model... ,epoch:176
+2021-04-30 14:07:26,890 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 14:07:26,938 - Model - INFO - Epoch 147 (178/250):
+2021-04-30 14:43:40,082 - Model - INFO - Train Instance Accuracy: 0.931507 ,mean_loss: 0.099706 
+2021-04-30 14:51:59,108 - Model - INFO - Test Instance Accuracy: 0.918689, Class Accuracy: 0.892749
+2021-04-30 14:51:59,109 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 14:51:59,109 - Model - INFO - Save model... ,epoch:177
+2021-04-30 14:51:59,109 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 14:51:59,156 - Model - INFO - Epoch 148 (179/250):
+2021-04-30 15:28:05,580 - Model - INFO - Train Instance Accuracy: 0.931726 ,mean_loss: 0.110319 
+2021-04-30 15:36:24,017 - Model - INFO - Test Instance Accuracy: 0.916060, Class Accuracy: 0.894054
+2021-04-30 15:36:24,018 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 15:36:24,018 - Model - INFO - Save model... ,epoch:178
+2021-04-30 15:36:24,018 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 15:36:24,065 - Model - INFO - Epoch 149 (180/250):
+2021-04-30 16:12:35,114 - Model - INFO - Train Instance Accuracy: 0.931963 ,mean_loss: 0.100485 
+2021-04-30 16:20:55,359 - Model - INFO - Test Instance Accuracy: 0.919701, Class Accuracy: 0.890767
+2021-04-30 16:20:55,360 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 16:20:55,360 - Model - INFO - Save model... ,epoch:179
+2021-04-30 16:20:55,360 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 16:20:55,408 - Model - INFO - Epoch 150 (181/250):
+2021-04-30 16:57:03,795 - Model - INFO - Train Instance Accuracy: 0.932194 ,mean_loss: 0.098792 
+2021-04-30 17:05:18,895 - Model - INFO - Test Instance Accuracy: 0.918285, Class Accuracy: 0.891725
+2021-04-30 17:05:18,895 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 17:05:18,895 - Model - INFO - Save model... ,epoch:180
+2021-04-30 17:05:18,895 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 17:05:18,943 - Model - INFO - Epoch 151 (182/250):
+2021-04-30 17:41:31,196 - Model - INFO - Train Instance Accuracy: 0.932428 ,mean_loss: 0.095752 
+2021-04-30 17:49:50,859 - Model - INFO - Test Instance Accuracy: 0.911408, Class Accuracy: 0.893339
+2021-04-30 17:49:50,859 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 17:49:50,859 - Model - INFO - Save model... ,epoch:181
+2021-04-30 17:49:50,859 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 17:49:50,907 - Model - INFO - Epoch 152 (183/250):
+2021-04-30 18:25:57,859 - Model - INFO - Train Instance Accuracy: 0.932664 ,mean_loss: 0.097458 
+2021-04-30 18:34:12,792 - Model - INFO - Test Instance Accuracy: 0.920307, Class Accuracy: 0.896363
+2021-04-30 18:34:12,793 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 18:34:12,793 - Model - INFO - Save model... ,epoch:182
+2021-04-30 18:34:12,793 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 18:34:12,840 - Model - INFO - Epoch 153 (184/250):
+2021-04-30 19:10:27,472 - Model - INFO - Train Instance Accuracy: 0.932898 ,mean_loss: 0.098378 
+2021-04-30 19:18:41,383 - Model - INFO - Test Instance Accuracy: 0.917071, Class Accuracy: 0.889346
+2021-04-30 19:18:41,383 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 19:18:41,383 - Model - INFO - Save model... ,epoch:183
+2021-04-30 19:18:41,383 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 19:18:41,430 - Model - INFO - Epoch 154 (185/250):
+2021-04-30 19:55:06,678 - Model - INFO - Train Instance Accuracy: 0.933119 ,mean_loss: 0.101553 
+2021-04-30 20:03:23,603 - Model - INFO - Test Instance Accuracy: 0.917880, Class Accuracy: 0.894670
+2021-04-30 20:03:23,603 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.896748
+2021-04-30 20:03:23,603 - Model - INFO - Save model... ,epoch:184
+2021-04-30 20:03:23,603 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 20:03:23,650 - Model - INFO - Epoch 155 (186/250):
+2021-04-30 20:39:34,020 - Model - INFO - Train Instance Accuracy: 0.933348 ,mean_loss: 0.098377 
+2021-04-30 20:47:48,091 - Model - INFO - Test Instance Accuracy: 0.919701, Class Accuracy: 0.897729
+2021-04-30 20:47:48,091 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.897729
+2021-04-30 20:47:48,091 - Model - INFO - Save model... ,epoch:185
+2021-04-30 20:47:48,091 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 20:47:48,139 - Model - INFO - Epoch 156 (187/250):
+2021-04-30 21:23:59,543 - Model - INFO - Train Instance Accuracy: 0.933580 ,mean_loss: 0.096171 
+2021-04-30 21:32:14,887 - Model - INFO - Test Instance Accuracy: 0.915655, Class Accuracy: 0.896285
+2021-04-30 21:32:14,887 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.897729
+2021-04-30 21:32:14,887 - Model - INFO - Save model... ,epoch:186
+2021-04-30 21:32:14,887 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 21:32:14,935 - Model - INFO - Epoch 157 (188/250):
+2021-04-30 22:08:35,272 - Model - INFO - Train Instance Accuracy: 0.933810 ,mean_loss: 0.090613 
+2021-04-30 22:16:51,324 - Model - INFO - Test Instance Accuracy: 0.915251, Class Accuracy: 0.900101
+2021-04-30 22:16:51,324 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-04-30 22:16:51,324 - Model - INFO - Save model... ,epoch:187
+2021-04-30 22:16:51,324 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 22:16:51,371 - Model - INFO - Epoch 158 (189/250):
+2021-04-30 22:53:48,194 - Model - INFO - Train Instance Accuracy: 0.934025 ,mean_loss: 0.096548 
+2021-04-30 23:02:18,217 - Model - INFO - Test Instance Accuracy: 0.912824, Class Accuracy: 0.892784
+2021-04-30 23:02:18,217 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-04-30 23:02:18,217 - Model - INFO - Save model... ,epoch:188
+2021-04-30 23:02:18,217 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 23:02:18,266 - Model - INFO - Epoch 159 (190/250):
+2021-04-30 23:39:24,896 - Model - INFO - Train Instance Accuracy: 0.934246 ,mean_loss: 0.091323 
+2021-04-30 23:47:55,093 - Model - INFO - Test Instance Accuracy: 0.914037, Class Accuracy: 0.889525
+2021-04-30 23:47:55,094 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-04-30 23:47:55,094 - Model - INFO - Save model... ,epoch:189
+2021-04-30 23:47:55,094 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-04-30 23:47:55,143 - Model - INFO - Epoch 160 (191/250):
+2021-05-01 00:24:58,011 - Model - INFO - Train Instance Accuracy: 0.934472 ,mean_loss: 0.090500 
+2021-05-01 00:33:29,089 - Model - INFO - Test Instance Accuracy: 0.916869, Class Accuracy: 0.891345
+2021-05-01 00:33:29,089 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 00:33:29,089 - Model - INFO - Save model... ,epoch:190
+2021-05-01 00:33:29,089 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 00:33:29,138 - Model - INFO - Epoch 161 (192/250):
+2021-05-01 01:10:38,373 - Model - INFO - Train Instance Accuracy: 0.934678 ,mean_loss: 0.100687 
+2021-05-01 01:19:09,893 - Model - INFO - Test Instance Accuracy: 0.916060, Class Accuracy: 0.884401
+2021-05-01 01:19:09,894 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 01:19:09,894 - Model - INFO - Save model... ,epoch:191
+2021-05-01 01:19:09,894 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 01:19:09,942 - Model - INFO - Epoch 162 (193/250):
+2021-05-01 01:56:19,825 - Model - INFO - Train Instance Accuracy: 0.934895 ,mean_loss: 0.092883 
+2021-05-01 02:04:49,869 - Model - INFO - Test Instance Accuracy: 0.916060, Class Accuracy: 0.886484
+2021-05-01 02:04:49,869 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 02:04:49,869 - Model - INFO - Save model... ,epoch:192
+2021-05-01 02:04:49,869 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 02:04:49,918 - Model - INFO - Epoch 163 (194/250):
+2021-05-01 02:41:58,164 - Model - INFO - Train Instance Accuracy: 0.935106 ,mean_loss: 0.091847 
+2021-05-01 02:50:28,209 - Model - INFO - Test Instance Accuracy: 0.911610, Class Accuracy: 0.888649
+2021-05-01 02:50:28,209 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 02:50:28,209 - Model - INFO - Save model... ,epoch:193
+2021-05-01 02:50:28,209 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 02:50:28,260 - Model - INFO - Epoch 164 (195/250):
+2021-05-01 03:27:32,550 - Model - INFO - Train Instance Accuracy: 0.935313 ,mean_loss: 0.094514 
+2021-05-01 03:36:02,700 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.882564
+2021-05-01 03:36:02,700 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 03:36:02,700 - Model - INFO - Save model... ,epoch:194
+2021-05-01 03:36:02,700 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 03:36:02,749 - Model - INFO - Epoch 165 (196/250):
+2021-05-01 04:13:15,003 - Model - INFO - Train Instance Accuracy: 0.935520 ,mean_loss: 0.093349 
+2021-05-01 04:21:42,601 - Model - INFO - Test Instance Accuracy: 0.914239, Class Accuracy: 0.886739
+2021-05-01 04:21:42,601 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 04:21:42,601 - Model - INFO - Save model... ,epoch:195
+2021-05-01 04:21:42,601 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 04:21:42,650 - Model - INFO - Epoch 166 (197/250):
+2021-05-01 04:58:49,443 - Model - INFO - Train Instance Accuracy: 0.935730 ,mean_loss: 0.094024 
+2021-05-01 05:07:18,718 - Model - INFO - Test Instance Accuracy: 0.917678, Class Accuracy: 0.885613
+2021-05-01 05:07:18,719 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 05:07:18,719 - Model - INFO - Save model... ,epoch:196
+2021-05-01 05:07:18,719 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 05:07:18,768 - Model - INFO - Epoch 167 (198/250):
+2021-05-01 05:44:24,819 - Model - INFO - Train Instance Accuracy: 0.935942 ,mean_loss: 0.086415 
+2021-05-01 05:52:52,413 - Model - INFO - Test Instance Accuracy: 0.916464, Class Accuracy: 0.888487
+2021-05-01 05:52:52,413 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 05:52:52,413 - Model - INFO - Save model... ,epoch:197
+2021-05-01 05:52:52,413 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 05:52:52,462 - Model - INFO - Epoch 168 (199/250):
+2021-05-01 06:29:57,401 - Model - INFO - Train Instance Accuracy: 0.936154 ,mean_loss: 0.090666 
+2021-05-01 06:38:28,203 - Model - INFO - Test Instance Accuracy: 0.913835, Class Accuracy: 0.883837
+2021-05-01 06:38:28,203 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 06:38:28,203 - Model - INFO - Save model... ,epoch:198
+2021-05-01 06:38:28,203 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 06:38:28,252 - Model - INFO - Epoch 169 (200/250):
+2021-05-01 07:15:33,672 - Model - INFO - Train Instance Accuracy: 0.936353 ,mean_loss: 0.097991 
+2021-05-01 07:24:01,108 - Model - INFO - Test Instance Accuracy: 0.916262, Class Accuracy: 0.886878
+2021-05-01 07:24:01,108 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 07:24:01,108 - Model - INFO - Save model... ,epoch:199
+2021-05-01 07:24:01,108 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 07:24:01,157 - Model - INFO - Epoch 170 (201/250):
+2021-05-01 08:01:08,728 - Model - INFO - Train Instance Accuracy: 0.936540 ,mean_loss: 0.090510 
+2021-05-01 08:09:41,051 - Model - INFO - Test Instance Accuracy: 0.916869, Class Accuracy: 0.892856
+2021-05-01 08:09:41,051 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 08:09:41,051 - Model - INFO - Save model... ,epoch:200
+2021-05-01 08:09:41,051 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 08:09:41,100 - Model - INFO - Epoch 171 (202/250):
+2021-05-01 08:46:44,858 - Model - INFO - Train Instance Accuracy: 0.936741 ,mean_loss: 0.088856 
+2021-05-01 08:55:15,628 - Model - INFO - Test Instance Accuracy: 0.915251, Class Accuracy: 0.884951
+2021-05-01 08:55:15,628 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 08:55:15,628 - Model - INFO - Save model... ,epoch:201
+2021-05-01 08:55:15,628 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 08:55:15,677 - Model - INFO - Epoch 172 (203/250):
+2021-05-01 09:32:20,288 - Model - INFO - Train Instance Accuracy: 0.936938 ,mean_loss: 0.090431 
+2021-05-01 09:40:49,714 - Model - INFO - Test Instance Accuracy: 0.914644, Class Accuracy: 0.877957
+2021-05-01 09:40:49,714 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 09:40:49,714 - Model - INFO - Save model... ,epoch:202
+2021-05-01 09:40:49,714 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 09:40:49,764 - Model - INFO - Epoch 173 (204/250):
+2021-05-01 10:17:58,569 - Model - INFO - Train Instance Accuracy: 0.937137 ,mean_loss: 0.085195 
+2021-05-01 10:26:29,068 - Model - INFO - Test Instance Accuracy: 0.915453, Class Accuracy: 0.887575
+2021-05-01 10:26:29,068 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 10:26:29,068 - Model - INFO - Save model... ,epoch:203
+2021-05-01 10:26:29,069 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 10:26:29,119 - Model - INFO - Epoch 174 (205/250):
+2021-05-01 11:03:34,215 - Model - INFO - Train Instance Accuracy: 0.937332 ,mean_loss: 0.085003 
+2021-05-01 11:12:04,888 - Model - INFO - Test Instance Accuracy: 0.916262, Class Accuracy: 0.892581
+2021-05-01 11:12:04,888 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 11:12:04,888 - Model - INFO - Save model... ,epoch:204
+2021-05-01 11:12:04,888 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 11:12:04,936 - Model - INFO - Epoch 175 (206/250):
+2021-05-01 11:49:15,209 - Model - INFO - Train Instance Accuracy: 0.937512 ,mean_loss: 0.095337 
+2021-05-01 11:57:42,884 - Model - INFO - Test Instance Accuracy: 0.914037, Class Accuracy: 0.898249
+2021-05-01 11:57:42,884 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 11:57:42,884 - Model - INFO - Save model... ,epoch:205
+2021-05-01 11:57:42,884 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 11:57:42,933 - Model - INFO - Epoch 176 (207/250):
+2021-05-01 12:34:54,779 - Model - INFO - Train Instance Accuracy: 0.937706 ,mean_loss: 0.085433 
+2021-05-01 12:43:23,269 - Model - INFO - Test Instance Accuracy: 0.915453, Class Accuracy: 0.880654
+2021-05-01 12:43:23,269 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 12:43:23,269 - Model - INFO - Save model... ,epoch:206
+2021-05-01 12:43:23,269 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 12:43:23,320 - Model - INFO - Epoch 177 (208/250):
+2021-05-01 13:20:27,822 - Model - INFO - Train Instance Accuracy: 0.937892 ,mean_loss: 0.087009 
+2021-05-01 13:28:56,725 - Model - INFO - Test Instance Accuracy: 0.916262, Class Accuracy: 0.888021
+2021-05-01 13:28:56,725 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 13:28:56,725 - Model - INFO - Save model... ,epoch:207
+2021-05-01 13:28:56,725 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 13:28:56,774 - Model - INFO - Epoch 178 (209/250):
+2021-05-01 14:05:59,522 - Model - INFO - Train Instance Accuracy: 0.938079 ,mean_loss: 0.087773 
+2021-05-01 14:14:29,998 - Model - INFO - Test Instance Accuracy: 0.915251, Class Accuracy: 0.884751
+2021-05-01 14:14:29,998 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 14:14:29,998 - Model - INFO - Save model... ,epoch:208
+2021-05-01 14:14:29,998 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 14:14:30,047 - Model - INFO - Epoch 179 (210/250):
+2021-05-01 14:51:35,229 - Model - INFO - Train Instance Accuracy: 0.938266 ,mean_loss: 0.086956 
+2021-05-01 15:00:07,038 - Model - INFO - Test Instance Accuracy: 0.912217, Class Accuracy: 0.886832
+2021-05-01 15:00:07,038 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 15:00:07,038 - Model - INFO - Save model... ,epoch:209
+2021-05-01 15:00:07,038 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 15:00:07,087 - Model - INFO - Epoch 180 (211/250):
+2021-05-01 15:37:14,909 - Model - INFO - Train Instance Accuracy: 0.938449 ,mean_loss: 0.086226 
+2021-05-01 15:45:47,265 - Model - INFO - Test Instance Accuracy: 0.915049, Class Accuracy: 0.886762
+2021-05-01 15:45:47,265 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 15:45:47,265 - Model - INFO - Save model... ,epoch:210
+2021-05-01 15:45:47,265 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 15:45:47,314 - Model - INFO - Epoch 181 (212/250):
+2021-05-01 16:22:52,615 - Model - INFO - Train Instance Accuracy: 0.938652 ,mean_loss: 0.077123 
+2021-05-01 16:31:22,691 - Model - INFO - Test Instance Accuracy: 0.913026, Class Accuracy: 0.887196
+2021-05-01 16:31:22,692 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 16:31:22,692 - Model - INFO - Save model... ,epoch:211
+2021-05-01 16:31:22,692 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 16:31:22,740 - Model - INFO - Epoch 182 (213/250):
+2021-05-01 17:08:34,329 - Model - INFO - Train Instance Accuracy: 0.938838 ,mean_loss: 0.083812 
+2021-05-01 17:17:05,725 - Model - INFO - Test Instance Accuracy: 0.913228, Class Accuracy: 0.889398
+2021-05-01 17:17:05,725 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 17:17:05,725 - Model - INFO - Save model... ,epoch:212
+2021-05-01 17:17:05,725 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 17:17:05,774 - Model - INFO - Epoch 183 (214/250):
+2021-05-01 17:54:16,609 - Model - INFO - Train Instance Accuracy: 0.939028 ,mean_loss: 0.082861 
+2021-05-01 18:02:47,796 - Model - INFO - Test Instance Accuracy: 0.913633, Class Accuracy: 0.893851
+2021-05-01 18:02:47,796 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 18:02:47,796 - Model - INFO - Save model... ,epoch:213
+2021-05-01 18:02:47,796 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 18:02:47,844 - Model - INFO - Epoch 184 (215/250):
+2021-05-01 18:39:53,960 - Model - INFO - Train Instance Accuracy: 0.939214 ,mean_loss: 0.079155 
+2021-05-01 18:48:25,498 - Model - INFO - Test Instance Accuracy: 0.911408, Class Accuracy: 0.891186
+2021-05-01 18:48:25,498 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 18:48:25,498 - Model - INFO - Save model... ,epoch:214
+2021-05-01 18:48:25,498 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 18:48:25,547 - Model - INFO - Epoch 185 (216/250):
+2021-05-01 19:25:33,731 - Model - INFO - Train Instance Accuracy: 0.939394 ,mean_loss: 0.083182 
+2021-05-01 19:34:03,137 - Model - INFO - Test Instance Accuracy: 0.911610, Class Accuracy: 0.883047
+2021-05-01 19:34:03,138 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 19:34:03,138 - Model - INFO - Save model... ,epoch:215
+2021-05-01 19:34:03,138 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 19:34:03,186 - Model - INFO - Epoch 186 (217/250):
+2021-05-01 20:11:13,511 - Model - INFO - Train Instance Accuracy: 0.939568 ,mean_loss: 0.084745 
+2021-05-01 20:19:43,182 - Model - INFO - Test Instance Accuracy: 0.916262, Class Accuracy: 0.892642
+2021-05-01 20:19:43,182 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 20:19:43,182 - Model - INFO - Save model... ,epoch:216
+2021-05-01 20:19:43,182 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 20:19:43,230 - Model - INFO - Epoch 187 (218/250):
+2021-05-01 20:56:51,678 - Model - INFO - Train Instance Accuracy: 0.939754 ,mean_loss: 0.080994 
+2021-05-01 21:05:22,350 - Model - INFO - Test Instance Accuracy: 0.909385, Class Accuracy: 0.878947
+2021-05-01 21:05:22,350 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 21:05:22,351 - Model - INFO - Save model... ,epoch:217
+2021-05-01 21:05:22,351 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 21:05:22,399 - Model - INFO - Epoch 188 (219/250):
+2021-05-01 21:42:31,215 - Model - INFO - Train Instance Accuracy: 0.939923 ,mean_loss: 0.086374 
+2021-05-01 21:51:01,477 - Model - INFO - Test Instance Accuracy: 0.915655, Class Accuracy: 0.889841
+2021-05-01 21:51:01,477 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 21:51:01,477 - Model - INFO - Save model... ,epoch:218
+2021-05-01 21:51:01,477 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 21:51:01,527 - Model - INFO - Epoch 189 (220/250):
+2021-05-01 22:28:10,143 - Model - INFO - Train Instance Accuracy: 0.940102 ,mean_loss: 0.078186 
+2021-05-01 22:36:38,865 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.890862
+2021-05-01 22:36:38,865 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 22:36:38,866 - Model - INFO - Save model... ,epoch:219
+2021-05-01 22:36:38,866 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 22:36:38,914 - Model - INFO - Epoch 190 (221/250):
+2021-05-01 23:13:50,198 - Model - INFO - Train Instance Accuracy: 0.940267 ,mean_loss: 0.079063 
+2021-05-01 23:22:19,373 - Model - INFO - Test Instance Accuracy: 0.910801, Class Accuracy: 0.878649
+2021-05-01 23:22:19,373 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-01 23:22:19,373 - Model - INFO - Save model... ,epoch:220
+2021-05-01 23:22:19,373 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-01 23:22:19,422 - Model - INFO - Epoch 191 (222/250):
+2021-05-01 23:59:29,007 - Model - INFO - Train Instance Accuracy: 0.940439 ,mean_loss: 0.079954 
+2021-05-02 00:07:57,276 - Model - INFO - Test Instance Accuracy: 0.911610, Class Accuracy: 0.885095
+2021-05-02 00:07:57,276 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 00:07:57,276 - Model - INFO - Save model... ,epoch:221
+2021-05-02 00:07:57,276 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 00:07:57,326 - Model - INFO - Epoch 192 (223/250):
+2021-05-02 00:45:06,039 - Model - INFO - Train Instance Accuracy: 0.940601 ,mean_loss: 0.089147 
+2021-05-02 00:53:36,050 - Model - INFO - Test Instance Accuracy: 0.915453, Class Accuracy: 0.893290
+2021-05-02 00:53:36,050 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 00:53:36,050 - Model - INFO - Save model... ,epoch:222
+2021-05-02 00:53:36,050 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 00:53:36,098 - Model - INFO - Epoch 193 (224/250):
+2021-05-02 01:30:41,507 - Model - INFO - Train Instance Accuracy: 0.940767 ,mean_loss: 0.082361 
+2021-05-02 01:39:13,514 - Model - INFO - Test Instance Accuracy: 0.913835, Class Accuracy: 0.893707
+2021-05-02 01:39:13,514 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 01:39:13,514 - Model - INFO - Save model... ,epoch:223
+2021-05-02 01:39:13,514 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 01:39:13,563 - Model - INFO - Epoch 194 (225/250):
+2021-05-02 02:16:20,950 - Model - INFO - Train Instance Accuracy: 0.940929 ,mean_loss: 0.079066 
+2021-05-02 02:24:50,605 - Model - INFO - Test Instance Accuracy: 0.914442, Class Accuracy: 0.891840
+2021-05-02 02:24:50,605 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 02:24:50,605 - Model - INFO - Save model... ,epoch:224
+2021-05-02 02:24:50,605 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 02:24:50,654 - Model - INFO - Epoch 195 (226/250):
+2021-05-02 03:01:57,976 - Model - INFO - Train Instance Accuracy: 0.941100 ,mean_loss: 0.079765 
+2021-05-02 03:10:28,090 - Model - INFO - Test Instance Accuracy: 0.916667, Class Accuracy: 0.887312
+2021-05-02 03:10:28,091 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 03:10:28,091 - Model - INFO - Save model... ,epoch:225
+2021-05-02 03:10:28,091 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 03:10:28,139 - Model - INFO - Epoch 196 (227/250):
+2021-05-02 03:47:37,852 - Model - INFO - Train Instance Accuracy: 0.941270 ,mean_loss: 0.080382 
+2021-05-02 03:56:08,913 - Model - INFO - Test Instance Accuracy: 0.915251, Class Accuracy: 0.898119
+2021-05-02 03:56:08,913 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 03:56:08,913 - Model - INFO - Save model... ,epoch:226
+2021-05-02 03:56:08,913 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 03:56:08,963 - Model - INFO - Epoch 197 (228/250):
+2021-05-02 04:33:14,732 - Model - INFO - Train Instance Accuracy: 0.941430 ,mean_loss: 0.081500 
+2021-05-02 04:41:46,002 - Model - INFO - Test Instance Accuracy: 0.915049, Class Accuracy: 0.899517
+2021-05-02 04:41:46,002 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 04:41:46,002 - Model - INFO - Save model... ,epoch:227
+2021-05-02 04:41:46,002 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 04:41:46,051 - Model - INFO - Epoch 198 (229/250):
+2021-05-02 05:18:53,506 - Model - INFO - Train Instance Accuracy: 0.941597 ,mean_loss: 0.080401 
+2021-05-02 05:27:23,808 - Model - INFO - Test Instance Accuracy: 0.912621, Class Accuracy: 0.886186
+2021-05-02 05:27:23,809 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 05:27:23,809 - Model - INFO - Save model... ,epoch:228
+2021-05-02 05:27:23,809 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 05:27:23,857 - Model - INFO - Epoch 199 (230/250):
+2021-05-02 06:04:31,669 - Model - INFO - Train Instance Accuracy: 0.941758 ,mean_loss: 0.082445 
+2021-05-02 06:13:02,336 - Model - INFO - Test Instance Accuracy: 0.914239, Class Accuracy: 0.888993
+2021-05-02 06:13:02,336 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 06:13:02,336 - Model - INFO - Save model... ,epoch:229
+2021-05-02 06:13:02,336 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 06:13:02,386 - Model - INFO - Epoch 200 (231/250):
+2021-05-02 06:50:11,245 - Model - INFO - Train Instance Accuracy: 0.941922 ,mean_loss: 0.075350 
+2021-05-02 06:58:41,367 - Model - INFO - Test Instance Accuracy: 0.919296, Class Accuracy: 0.890365
+2021-05-02 06:58:41,367 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 06:58:41,367 - Model - INFO - Save model... ,epoch:230
+2021-05-02 06:58:41,367 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 06:58:41,416 - Model - INFO - Epoch 201 (232/250):
+2021-05-02 07:35:45,813 - Model - INFO - Train Instance Accuracy: 0.942078 ,mean_loss: 0.078930 
+2021-05-02 07:44:16,188 - Model - INFO - Test Instance Accuracy: 0.913430, Class Accuracy: 0.888819
+2021-05-02 07:44:16,188 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 07:44:16,188 - Model - INFO - Save model... ,epoch:231
+2021-05-02 07:44:16,188 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 07:44:16,237 - Model - INFO - Epoch 202 (233/250):
+2021-05-02 08:21:21,156 - Model - INFO - Train Instance Accuracy: 0.942233 ,mean_loss: 0.079910 
+2021-05-02 08:29:49,584 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.888996
+2021-05-02 08:29:49,584 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 08:29:49,584 - Model - INFO - Save model... ,epoch:232
+2021-05-02 08:29:49,584 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 08:29:49,633 - Model - INFO - Epoch 203 (234/250):
+2021-05-02 09:06:55,058 - Model - INFO - Train Instance Accuracy: 0.942385 ,mean_loss: 0.079569 
+2021-05-02 09:15:27,040 - Model - INFO - Test Instance Accuracy: 0.918689, Class Accuracy: 0.891481
+2021-05-02 09:15:27,040 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 09:15:27,040 - Model - INFO - Save model... ,epoch:233
+2021-05-02 09:15:27,040 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 09:15:27,090 - Model - INFO - Epoch 204 (235/250):
+2021-05-02 09:52:34,733 - Model - INFO - Train Instance Accuracy: 0.942534 ,mean_loss: 0.087554 
+2021-05-02 10:01:03,820 - Model - INFO - Test Instance Accuracy: 0.918689, Class Accuracy: 0.890992
+2021-05-02 10:01:03,820 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 10:01:03,820 - Model - INFO - Save model... ,epoch:234
+2021-05-02 10:01:03,820 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 10:01:03,871 - Model - INFO - Epoch 205 (236/250):
+2021-05-02 10:38:08,501 - Model - INFO - Train Instance Accuracy: 0.942682 ,mean_loss: 0.082427 
+2021-05-02 10:46:37,669 - Model - INFO - Test Instance Accuracy: 0.917880, Class Accuracy: 0.887326
+2021-05-02 10:46:37,669 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 10:46:37,669 - Model - INFO - Save model... ,epoch:235
+2021-05-02 10:46:37,669 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 10:46:37,721 - Model - INFO - Epoch 206 (237/250):
+2021-05-02 11:23:47,703 - Model - INFO - Train Instance Accuracy: 0.942834 ,mean_loss: 0.082303 
+2021-05-02 11:32:16,323 - Model - INFO - Test Instance Accuracy: 0.910194, Class Accuracy: 0.885205
+2021-05-02 11:32:16,323 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 11:32:16,323 - Model - INFO - Save model... ,epoch:236
+2021-05-02 11:32:16,323 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 11:32:16,372 - Model - INFO - Epoch 207 (238/250):
+2021-05-02 12:09:22,669 - Model - INFO - Train Instance Accuracy: 0.942986 ,mean_loss: 0.076643 
+2021-05-02 12:17:50,744 - Model - INFO - Test Instance Accuracy: 0.915049, Class Accuracy: 0.890509
+2021-05-02 12:17:50,744 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 12:17:50,744 - Model - INFO - Save model... ,epoch:237
+2021-05-02 12:17:50,744 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 12:17:50,793 - Model - INFO - Epoch 208 (239/250):
+2021-05-02 12:54:56,085 - Model - INFO - Train Instance Accuracy: 0.943140 ,mean_loss: 0.081475 
+2021-05-02 13:03:27,233 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.888744
+2021-05-02 13:03:27,233 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 13:03:27,233 - Model - INFO - Save model... ,epoch:238
+2021-05-02 13:03:27,233 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 13:03:27,282 - Model - INFO - Epoch 209 (240/250):
+2021-05-02 13:40:36,350 - Model - INFO - Train Instance Accuracy: 0.943284 ,mean_loss: 0.082585 
+2021-05-02 13:49:05,011 - Model - INFO - Test Instance Accuracy: 0.914442, Class Accuracy: 0.894332
+2021-05-02 13:49:05,011 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 13:49:05,011 - Model - INFO - Save model... ,epoch:239
+2021-05-02 13:49:05,011 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 13:49:05,060 - Model - INFO - Epoch 210 (241/250):
+2021-05-02 14:26:12,024 - Model - INFO - Train Instance Accuracy: 0.943428 ,mean_loss: 0.076783 
+2021-05-02 14:34:42,073 - Model - INFO - Test Instance Accuracy: 0.910396, Class Accuracy: 0.881534
+2021-05-02 14:34:42,074 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 14:34:42,074 - Model - INFO - Save model... ,epoch:240
+2021-05-02 14:34:42,074 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 14:34:42,124 - Model - INFO - Epoch 211 (242/250):
+2021-05-02 15:11:52,627 - Model - INFO - Train Instance Accuracy: 0.943576 ,mean_loss: 0.077316 
+2021-05-02 15:20:23,405 - Model - INFO - Test Instance Accuracy: 0.915251, Class Accuracy: 0.887020
+2021-05-02 15:20:23,405 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 15:20:23,405 - Model - INFO - Save model... ,epoch:241
+2021-05-02 15:20:23,405 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 15:20:23,455 - Model - INFO - Epoch 212 (243/250):
+2021-05-02 15:57:33,473 - Model - INFO - Train Instance Accuracy: 0.943715 ,mean_loss: 0.081421 
+2021-05-02 16:06:04,900 - Model - INFO - Test Instance Accuracy: 0.914442, Class Accuracy: 0.893223
+2021-05-02 16:06:04,900 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 16:06:04,900 - Model - INFO - Save model... ,epoch:242
+2021-05-02 16:06:04,900 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 16:06:04,949 - Model - INFO - Epoch 213 (244/250):
+2021-05-02 16:43:12,858 - Model - INFO - Train Instance Accuracy: 0.943861 ,mean_loss: 0.072832 
+2021-05-02 16:51:42,176 - Model - INFO - Test Instance Accuracy: 0.920105, Class Accuracy: 0.887784
+2021-05-02 16:51:42,176 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 16:51:42,176 - Model - INFO - Save model... ,epoch:243
+2021-05-02 16:51:42,176 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 16:51:42,239 - Model - INFO - Epoch 214 (245/250):
+2021-05-02 17:28:49,416 - Model - INFO - Train Instance Accuracy: 0.944015 ,mean_loss: 0.070954 
+2021-05-02 17:37:19,577 - Model - INFO - Test Instance Accuracy: 0.914846, Class Accuracy: 0.892095
+2021-05-02 17:37:19,578 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 17:37:19,578 - Model - INFO - Save model... ,epoch:244
+2021-05-02 17:37:19,578 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 17:37:19,627 - Model - INFO - Epoch 215 (246/250):
+2021-05-02 18:14:24,867 - Model - INFO - Train Instance Accuracy: 0.944158 ,mean_loss: 0.077291 
+2021-05-02 18:22:56,631 - Model - INFO - Test Instance Accuracy: 0.916060, Class Accuracy: 0.893727
+2021-05-02 18:22:56,631 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 18:22:56,631 - Model - INFO - Save model... ,epoch:245
+2021-05-02 18:22:56,631 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 18:22:56,682 - Model - INFO - Epoch 216 (247/250):
+2021-05-02 19:00:04,989 - Model - INFO - Train Instance Accuracy: 0.944305 ,mean_loss: 0.073190 
+2021-05-02 19:08:35,430 - Model - INFO - Test Instance Accuracy: 0.916869, Class Accuracy: 0.895347
+2021-05-02 19:08:35,430 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 19:08:35,430 - Model - INFO - Save model... ,epoch:246
+2021-05-02 19:08:35,430 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 19:08:35,479 - Model - INFO - Epoch 217 (248/250):
+2021-05-02 19:45:43,360 - Model - INFO - Train Instance Accuracy: 0.944443 ,mean_loss: 0.077931 
+2021-05-02 19:54:15,160 - Model - INFO - Test Instance Accuracy: 0.918083, Class Accuracy: 0.892274
+2021-05-02 19:54:15,160 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.900101
+2021-05-02 19:54:15,160 - Model - INFO - Save model... ,epoch:247
+2021-05-02 19:54:15,160 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 19:54:15,209 - Model - INFO - Epoch 218 (249/250):
+2021-05-02 20:31:22,841 - Model - INFO - Train Instance Accuracy: 0.944582 ,mean_loss: 0.076607 
+2021-05-02 20:39:54,581 - Model - INFO - Test Instance Accuracy: 0.916464, Class Accuracy: 0.901192
+2021-05-02 20:39:54,581 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.901192
+2021-05-02 20:39:54,581 - Model - INFO - Save model... ,epoch:248
+2021-05-02 20:39:54,581 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 20:39:54,629 - Model - INFO - Epoch 219 (250/250):
+2021-05-02 21:17:06,468 - Model - INFO - Train Instance Accuracy: 0.944718 ,mean_loss: 0.073799 
+2021-05-02 21:25:35,730 - Model - INFO - Test Instance Accuracy: 0.914442, Class Accuracy: 0.886502
+2021-05-02 21:25:35,730 - Model - INFO - Best Instance Accuracy: 0.924353, Class Accuracy: 0.901192
+2021-05-02 21:25:35,730 - Model - INFO - Save model... ,epoch:249
+2021-05-02 21:25:35,730 - Model - INFO - Saving at log/classification/naive_morton/checkpoints/model.pth
+2021-05-02 21:25:35,780 - Model - INFO - End of training...

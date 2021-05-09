@@ -492,13 +492,14 @@ class PointNetSetAbstractionMsg(nn.Module):
         return new_xyz, new_points_concat
 
 class PointNetSetAbstractionMsg_SA(nn.Module):
-    def __init__(self, npoint, radius_list, nsample_list, in_channel, mlp_list):
+    def __init__(self, npoint, radius_list, nsample_list, in_channel, mlp_list,zorder_sort=True):
         super(PointNetSetAbstractionMsg_SA, self).__init__()
         self.npoint = npoint
         self.radius_list = radius_list
         self.nsample_list = nsample_list
         self.conv_blocks = nn.ModuleList()
         self.bn_blocks = nn.ModuleList()
+        self.zorder_sort=zorder_sort
         for i in range(len(mlp_list)):
             convs = nn.ModuleList()
             bns = nn.ModuleList()
@@ -522,6 +523,8 @@ class PointNetSetAbstractionMsg_SA(nn.Module):
         xyz = xyz.permute(0, 2, 1)
         if points is not None:
             points = points.permute(0, 2, 1)
+        if self.zorder_sort:
+            xyz, points = Z_order_sorting.apply(xyz, points)
 
         B, N, C = xyz.shape
         S = self.npoint
