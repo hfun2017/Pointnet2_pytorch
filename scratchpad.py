@@ -360,6 +360,14 @@ def random_point_dropout(batch_pc, max_dropout_ratio=0.875):
             batch_pc[b,drop_idx,:] = batch_pc[b,0,:] # set to the first point
     return batch_pc
 
+def position_encoding(npoint):
+    output=torch.zeros((npoint,3))
+    for i in range(npoint):
+        output[i,0]=torch.sin(torch.tensor(i/(10000**0)))
+        output[i,1]=torch.cos(torch.tensor(i/(10000**(2/3))))
+        output[i,2]=torch.sin(torch.tensor(i/(10000**(4/3))))
+    return output
+
 """##Model"""
 
 import torch
@@ -533,14 +541,17 @@ class get_model(nn.Module):
         self.dropout = nn.Dropout(p=0.4)
         self.bn5 = nn.BatchNorm1d(512)
         self.bn6 = nn.BatchNorm1d(256)
+        print("PE length:1024")
+        self.PE=position_encoding(1024).cuda()
 
     def forward(self, x):
-      #xyz,points=Z_order_sorting.apply(x[:,0:3,:],x[:,3:6,:])
-      #x=torch.cat((xyz,points),2)
-      x=x.permute(0,2,1)
-      xyz,points=Hilbert_sorting.apply(x[...,0:3],x[...,3:6])
+      xyz,points=Z_order_sorting.apply(x[:,0:3,:],x[:,3:6,:])
       x=torch.cat((xyz,points),2)
+      x[...,0:3]+=self.PE
       x=x.permute(0,2,1)
+      #xyz,points=Hilbert_sorting.apply(x[...,0:3],x[...,3:6])
+      #x=torch.cat((xyz,points),2)
+      #x=x.permute(0,2,1)
       x = F.relu(self.bn1(self.conv1(x)))
       x = F.relu(self.bn2(self.conv2(x)))
       x = F.relu(self.bn3(self.conv3(x)))
@@ -567,11 +578,11 @@ class get_loss(nn.Module):
 
 DATA_PATH = 'data/modelnet40_normal_resampled/'
 BATCH_SIZE = 16
-EPOCH = 250
+EPOCH = 200
 TRAIN_DATASET = ModelNetDataLoader(root=DATA_PATH, npoint=1024, split='train',normal_channel=True)
 TEST_DATASET = ModelNetDataLoader(root=DATA_PATH, npoint=1024, split='test',normal_channel=True)
-trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=BATCH_SIZE, shuffle=True, num_workers=3)
-testDataLoader = torch.utils.data.DataLoader(TEST_DATASET,  batch_size=BATCH_SIZE, shuffle=False, num_workers=3)
+trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
+testDataLoader = torch.utils.data.DataLoader(TEST_DATASET,  batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
 classifier = get_model(40,normal_channel=True).cuda()
 print(classifier)
 criterion = get_loss().cuda()
@@ -621,8 +632,8 @@ for epoch in range(0,EPOCH):
         points = points.data.numpy()
         points = random_point_dropout(points)
         points[:,:, 0:3] = random_scale_point_cloud(points[:,:, 0:3])
-        #points[:,:, 0:3] = shift_point_cloud(points[:,:, 0:3])
-        points[:,:,0:6]=rotate_point_cloud_with_normal(points[:,:,0:6])
+        points[:,:, 0:3] = shift_point_cloud(points[:,:, 0:3])
+        #points[:,:,0:6]=rotate_point_cloud_with_normal(points[:,:,0:6])
         points = torch.Tensor(points)
         target = target[:, 0]
         points = points.transpose(2, 1)

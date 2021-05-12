@@ -560,6 +560,14 @@ class PointNetSetAbstractionMsg(nn.Module):
         new_points_concat = torch.cat(new_points_list, dim=1)
         return new_xyz, new_points_concat
 
+def position_encoding(npoint):
+    output=torch.zeros((npoint,3))
+    for i in range(npoint):
+        output[i,0]=torch.sin(torch.tensor(i/(10000**0)))
+        output[i,1]=torch.cos(torch.tensor(i/(10000**(2/3))))
+        output[i,2]=torch.sin(torch.tensor(i/(10000**(4/3))))
+    return output
+
 class PointNetSetAbstractionMsg_SA(nn.Module):
     def __init__(self, npoint, radius_list, nsample_list, in_channel, mlp_list,zorder_sort=True):
         super(PointNetSetAbstractionMsg_SA, self).__init__()
@@ -569,6 +577,7 @@ class PointNetSetAbstractionMsg_SA(nn.Module):
         self.conv_blocks = nn.ModuleList()
         self.bn_blocks = nn.ModuleList()
         self.zorder_sort=zorder_sort
+            
         for i in range(len(mlp_list)):
             convs = nn.ModuleList()
             bns = nn.ModuleList()
