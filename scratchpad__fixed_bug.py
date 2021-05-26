@@ -724,6 +724,7 @@ def train():
             points = points.transpose(2, 1)
             points, target = points.cuda(), target.cuda()
             optimizer.zero_grad()
+            global classifier
             classifier = classifier.train()
             pred = classifier(points)
             loss = criterion(pred, target.long())
@@ -733,6 +734,7 @@ def train():
             loss.backward()
             optimizer.step()
             total_loss+=float(loss)
+            global global_step
             global_step += 1
         train_instance_acc = np.mean(mean_correct)
         print('EPOCH %d  Train Instance Accuracy: %f ,mean_loss: %f ' % (epoch,train_instance_acc,total_loss/batch_id))
