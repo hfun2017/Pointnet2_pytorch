@@ -605,15 +605,15 @@ class get_model(nn.Module):
             channel = 6
         else:
             channel = 3
-        self.conv1 = nn.Conv1d(channel,128,32,4)  #249
+        self.conv1 = nn.Conv1d(channel,128,32,4)  #249   24576
         self.bn1=nn.BatchNorm1d(128)
-        self.conv2 = nn.Conv1d(128,256,30,3)    #74
+        self.conv2 = nn.Conv1d(128,256,30,3)    #74    98w
         self.bn2=nn.BatchNorm1d(256)
-        self.conv3 = nn.Conv1d(256,512,28,2)    #24
+        self.conv3 = nn.Conv1d(256,512,28,2)    #24    367w
         self.bn3=nn.BatchNorm1d(512)
-        self.conv4 = nn.Conv1d(512,1024,24)     #1
-        self.bn4=nn.BatchNorm1d(1024)
-        self.fc1 = nn.Linear(1024, 512)
+        self.conv4 = nn.Conv1d(512,512 ,24)     #1   629w
+        self.bn4=nn.BatchNorm1d(512 )
+        self.fc1 = nn.Linear(512 , 512)
         self.fc2 = nn.Linear(512, 256)
         self.fc3 = nn.Linear(256, k)
         self.dropout = nn.Dropout(p=0.4)
@@ -663,7 +663,7 @@ class get_loss(nn.Module):
 
 DATA_PATH = 'data/modelnet40_normal_resampled/'
 BATCH_SIZE = 16
-EPOCH = 200
+EPOCH = 260
 TRAIN_DATASET = ModelNetDataLoader(root=DATA_PATH, npoint=1024, split='train',normal_channel=True)
 TEST_DATASET = ModelNetDataLoader(root=DATA_PATH, npoint=1024, split='test',normal_channel=True)
 trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
@@ -709,6 +709,12 @@ def test(model, loader, num_class=40):
     instance_acc = np.mean(mean_correct)
     return instance_acc, class_acc
 def train():
+
+    global best_instance_acc
+    global global_step
+    global global_epoch
+    global best_class_acc
+    global mean_correct
     for epoch in range(0,EPOCH):
         scheduler.step(epoch)
         total_loss= 0
@@ -734,7 +740,6 @@ def train():
             loss.backward()
             optimizer.step()
             total_loss+=float(loss)
-            global global_step
             global_step += 1
         train_instance_acc = np.mean(mean_correct)
         print('EPOCH %d  Train Instance Accuracy: %f ,mean_loss: %f ' % (epoch,train_instance_acc,total_loss/batch_id))
