@@ -33,7 +33,7 @@ def parse_args():
     parser.add_argument('--optimizer', type=str, default='Adam', help='optimizer for training [default: Adam]')
     parser.add_argument('--log_dir', type=str, default=None, help='experiment root')
     parser.add_argument('--decay_rate', type=float, default=1e-4, help='decay rate [default: 1e-4]')
-    parser.add_argument('--normal', action='store_true', default=True, help='Whether to use normal information [default: True]')
+    parser.add_argument('--normal', action='store_true', default=False, help='Whether to use normal information [default: True]')
     return parser.parse_args()
 
 def test(model, loader, num_class=40):

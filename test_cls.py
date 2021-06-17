@@ -24,7 +24,7 @@ def parse_args():
     parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
     parser.add_argument('--num_point', type=int, default=1024, help='Point Number [default: 1024]')
     parser.add_argument('--log_dir', type=str, default='pointnet2_ssg_normal', help='Experiment root')
-    parser.add_argument('--normal', action='store_true', default=True, help='Whether to use normal information [default: False]')
+    parser.add_argument('--normal', action='store_true', default=False, help='Whether to use normal information [default: False]')
     parser.add_argument('--num_votes', type=int, default=3, help='Aggregate classification scores with voting [default: 3]')
     return parser.parse_args()
 
@@ -36,6 +36,9 @@ def test(model, loader, num_class=40, vote_num=1):
         target = target[:, 0]
         points = points.transpose(2, 1)
         points, target = points.cuda(), target.cuda()
+        drop_rate=1024/args.num_point
+        #print("drop rate: %d",drop_rate)
+        points=points.repeat(1,1,int(drop_rate))
         classifier = model.eval()
         vote_pool = torch.zeros(target.size()[0],num_class).cuda()
         for _ in range(vote_num):
