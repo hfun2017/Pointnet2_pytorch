@@ -60,6 +60,7 @@ class ModelNetDataLoader(Dataset):
 
         self.cache_size = cache_size  # how many data points to cache in memory
         self.cache = {}  # from index to (point_set, cls) tuple
+        print("change to random choice ")
 
     def __len__(self):
         return len(self.datapath)
@@ -75,7 +76,10 @@ class ModelNetDataLoader(Dataset):
             if self.uniform:
                 point_set = farthest_point_sample(point_set, self.npoints)
             else:
-                point_set = point_set[0:self.npoints,:]
+                N,D=point_set.shape
+                idx=np.random.randint(0,N-1,self.npoints)
+                point_set=point_set[idx]
+                #point_set = point_set[0:self.npoints,:]
 
             point_set[:, 0:3] = pc_normalize(point_set[:, 0:3])
 
